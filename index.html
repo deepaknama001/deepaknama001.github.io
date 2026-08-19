@@ -2,4575 +2,5328 @@
 <html lang="en">
 <head>
 
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0"
+>
 
-  <title>
-    Deepak Kumar Nama | E-Commerce Manager
-  </title>
+<title>Deepak Kumar Nama | E-Commerce Manager</title>
 
-  <meta
-    name="description"
-    content="Deepak Kumar Nama is an E-Commerce Manager with 7+ years of hands-on e-commerce experience and 11+ years of overall operations experience across marketplace management, Shopify, catalog, inventory, MIS and process automation."
-  >
+<meta
+  name="description"
+  content="Deepak Kumar Nama — E-Commerce Manager with 7+ years of hands-on e-commerce experience and 11+ years of overall operations experience across marketplaces, catalog, inventory, Shopify, MIS and process automation."
+>
 
-  <meta name="theme-color" content="#f7f9fc">
+<meta name="theme-color" content="#f7f9fc">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <!-- GOOGLE FONTS -->
-
-  <link
-    rel="preconnect"
-    href="https://fonts.googleapis.com"
-  >
-
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  >
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+  rel="stylesheet"
+>
 
 
-  <style>
+<style>
 
-    /* =========================================================
-       ROOT
-    ========================================================= */
+/* =========================================================
+   ROOT
+========================================================= */
 
-    :root {
+:root {
 
-      --bg: #f7f9fc;
-      --bg-soft: #f0f4fa;
-      --white: #ffffff;
+  --bg: #f7f9fc;
+  --soft: #eef3f9;
+  --white: #ffffff;
 
-      --heading: #111827;
-      --text: #273244;
-      --muted: #667085;
-      --light-muted: #98a2b3;
+  --heading: #101828;
+  --text: #344054;
+  --muted: #667085;
+  --muted-2: #98a2b3;
 
-      --primary: #315efb;
-      --primary-dark: #244bd4;
-      --primary-soft: #edf2ff;
+  --primary: #315efb;
+  --primary-dark: #244bd4;
+  --primary-soft: #edf2ff;
 
-      --green: #19a96b;
-      --green-soft: #eafaf2;
+  --green: #17a768;
 
-      --border: rgba(16, 24, 40, .08);
-      --border-strong: rgba(16, 24, 40, .12);
+  --border: rgba(16,24,40,.08);
+  --border-strong: rgba(16,24,40,.13);
 
-      --shadow-sm:
-        0 8px 25px rgba(15, 23, 42, .045);
+  --shadow-sm:
+    0 8px 24px rgba(15,23,42,.045);
 
-      --shadow:
-        0 18px 55px rgba(15, 23, 42, .07);
+  --shadow:
+    0 18px 50px rgba(15,23,42,.07);
 
-      --shadow-lg:
-        0 30px 85px rgba(15, 23, 42, .10);
+  --shadow-lg:
+    0 28px 80px rgba(15,23,42,.10);
 
-      --container: 1180px;
+  --container: 1180px;
 
-      --radius-sm: 14px;
-      --radius: 20px;
-      --radius-lg: 30px;
-
-    }
+}
 
 
-    /* =========================================================
-       RESET
-    ========================================================= */
+/* =========================================================
+   RESET
+========================================================= */
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
 
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 90px;
-    }
+body {
 
+  font-family: "DM Sans", sans-serif;
 
-    body {
+  color: var(--text);
 
-      font-family: "DM Sans", sans-serif;
+  background:
+    radial-gradient(
+      circle at 5% 4%,
+      rgba(49,94,251,.07),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 95% 10%,
+      rgba(73,130,255,.055),
+      transparent 23%
+    ),
+    var(--bg);
 
-      color: var(--text);
+  overflow-x: hidden;
 
-      background:
+  -webkit-font-smoothing: antialiased;
+}
 
-        radial-gradient(
-          circle at 5% 3%,
-          rgba(49, 94, 251, .085),
-          transparent 25%
-        ),
+body.menu-open {
+  overflow: hidden;
+}
 
-        radial-gradient(
-          circle at 96% 13%,
-          rgba(92, 141, 255, .065),
-          transparent 24%
-        ),
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-        var(--bg);
+button {
+  font-family: inherit;
+}
 
-      overflow-x: hidden;
+img {
+  display: block;
+  max-width: 100%;
+}
 
-      -webkit-font-smoothing: antialiased;
-
-    }
-
-
-    body.menu-open {
-      overflow: hidden;
-    }
-
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-
-    button {
-      font-family: inherit;
-    }
-
-
-    img {
-      display: block;
-      max-width: 100%;
-    }
+::selection {
+  background: #dbe5ff;
+  color: var(--heading);
+}
 
 
-    ::selection {
-      background: #dbe5ff;
-      color: var(--heading);
-    }
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+.container {
+
+  width: min(
+    calc(100% - 48px),
+    var(--container)
+  );
+
+  margin-inline: auto;
+}
+
+.section {
+  padding: 105px 0;
+}
+
+.section-soft {
+
+  background:
+    rgba(238,243,249,.72);
+
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.section-header {
+
+  max-width: 790px;
+
+  margin-bottom: 50px;
+}
+
+.eyebrow {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 17px;
+
+  color: var(--primary);
+
+  font-size: 12px;
+  font-weight: 800;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1.6px;
+}
+
+.eyebrow::before {
+
+  content: "";
+
+  width: 27px;
+  height: 2px;
+
+  border-radius: 2px;
+
+  background: var(--primary);
+}
+
+.section-title {
+
+  font-family: "Manrope", sans-serif;
+
+  color: var(--heading);
+
+  font-size: clamp(34px,5vw,57px);
+
+  line-height: 1.08;
+
+  letter-spacing: -2.2px;
+
+  font-weight: 800;
+}
+
+.section-description {
+
+  max-width: 700px;
+
+  margin-top: 18px;
+
+  color: var(--muted);
+
+  font-size: 16px;
+
+  line-height: 1.8;
+}
 
 
-    /* =========================================================
-       GLOBAL
-    ========================================================= */
+/* =========================================================
+   NAVBAR
+========================================================= */
 
-    .container {
+.navbar {
 
-      width: min(
-        calc(100% - 48px),
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 1000;
+
+  transition:
+    background .25s ease,
+    box-shadow .25s ease,
+    border-color .25s ease;
+}
+
+.navbar.scrolled {
+
+  background:
+    rgba(255,255,255,.89);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border-bottom:
+    1px solid var(--border);
+
+  box-shadow:
+    0 7px 25px rgba(15,23,42,.035);
+}
+
+.nav-inner {
+
+  min-height: 78px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 25px;
+}
+
+.brand {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  flex-shrink: 0;
+}
+
+.brand-mark {
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 14px;
+
+  display: grid;
+
+  place-items: center;
+
+  color: var(--primary);
+
+  background: var(--white);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 800;
+}
+
+.brand-name {
+
+  color: var(--heading);
+
+  font-size: 14px;
+
+  font-weight: 800;
+}
+
+.nav-links {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 25px;
+}
+
+.nav-links a {
+
+  position: relative;
+
+  color: #475467;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  transition: color .2s ease;
+}
+
+.nav-links a:not(.nav-contact)::after {
+
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  right: 50%;
+
+  bottom: -9px;
+
+  height: 2px;
+
+  border-radius: 3px;
+
+  background: var(--primary);
+
+  transition:
+    left .2s ease,
+    right .2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+
+  color: var(--primary);
+}
+
+.nav-links a.active::after {
+
+  left: 0;
+  right: 0;
+}
+
+.nav-contact {
+
+  padding: 10px 16px;
+
+  border-radius: 100px;
+
+  color: var(--primary) !important;
+
+  border:
+    1px solid rgba(49,94,251,.18);
+
+  background:
+    rgba(255,255,255,.75);
+}
+
+.nav-contact:hover {
+
+  background: var(--primary-soft);
+}
+
+.menu-btn {
+
+  display: none;
+
+  width: 44px;
+  height: 44px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  background: var(--white);
+
+  border: 1px solid var(--border);
+
+  color: var(--heading);
+
+  font-size: 19px;
+
+  cursor: pointer;
+
+  box-shadow: var(--shadow-sm);
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+
+  min-height: 100svh;
+
+  display: flex;
+
+  align-items: center;
+
+  padding: 125px 0 70px;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.hero::after {
+
+  content: "";
+
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+
+  border-radius: 50%;
+
+  right: -180px;
+  top: 110px;
+
+  background:
+    rgba(49,94,251,.10);
+
+  filter: blur(140px);
+
+  pointer-events: none;
+}
+
+.hero-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0,1.15fr)
+    minmax(340px,.85fr);
+
+  align-items: center;
+
+  gap: 80px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.availability {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 9px 14px;
+
+  margin-bottom: 27px;
+
+  border-radius: 100px;
+
+  background:
+    rgba(255,255,255,.85);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+
+  color: #475467;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.availability-dot {
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: var(--green);
+
+  box-shadow:
+    0 0 0 5px rgba(23,167,104,.10);
+}
+
+.hero-title {
+
+  font-family: "Manrope", sans-serif;
+
+  color: var(--heading);
+
+  font-size: clamp(52px,7vw,85px);
+
+  line-height: .98;
+
+  letter-spacing: -4px;
+
+  font-weight: 800;
+
+  margin-bottom: 25px;
+}
+
+.hero-title span {
+  color: var(--primary);
+}
+
+.hero-role {
+
+  color: #344054;
+
+  font-size: clamp(19px,2.2vw,26px);
+
+  line-height: 1.45;
+
+  letter-spacing: -.4px;
+
+  font-weight: 600;
+
+  margin-bottom: 21px;
+}
+
+.hero-description {
+
+  max-width: 690px;
+
+  color: var(--muted);
+
+  font-size: 16px;
+
+  line-height: 1.85;
+
+  margin-bottom: 32px;
+}
+
+.hero-description strong {
+
+  color: #344054;
+
+  font-weight: 700;
+}
+
+.hero-actions {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 11px;
+}
+
+.btn {
+
+  min-height: 50px;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 0 20px;
+
+  border-radius: 13px;
+
+  font-size: 13px;
+
+  font-weight: 800;
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    border-color .2s ease,
+    background .2s ease;
+}
+
+.btn-primary {
+
+  color: white;
+
+  background: var(--primary);
+
+  border: 1px solid var(--primary);
+
+  box-shadow:
+    0 12px 30px rgba(49,94,251,.20);
+}
+
+.btn-primary:hover {
+
+  transform: translateY(-3px);
+
+  background: var(--primary-dark);
+
+  border-color: var(--primary-dark);
+}
+
+.btn-secondary {
+
+  color: #344054;
+
+  background:
+    rgba(255,255,255,.9);
+
+  border:
+    1px solid var(--border-strong);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary:hover {
+
+  transform: translateY(-3px);
+
+  border-color:
+    rgba(49,94,251,.23);
+
+  color: var(--primary);
+}
+
+
+/* =========================================================
+   PROFILE
+========================================================= */
+
+.profile-area {
+
+  display: flex;
+
+  justify-content: center;
+
+  position: relative;
+}
+
+.profile-card {
+
+  position: relative;
+
+  width: min(100%,390px);
+
+  padding: 13px;
+
+  border-radius: 30px;
+
+  background:
+    rgba(255,255,255,.84);
+
+  border:
+    1px solid rgba(255,255,255,.96);
+
+  box-shadow: var(--shadow-lg);
+
+  backdrop-filter: blur(15px);
+}
+
+.profile-image-wrap {
+
+  position: relative;
+
+  overflow: hidden;
+
+  aspect-ratio: 1 / 1;
+
+  border-radius: 23px;
+
+  background: #e8edf6;
+}
+
+.profile-image {
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  transition:
+    transform .5s ease;
+}
+
+.profile-card:hover .profile-image {
+  transform: scale(1.025);
+}
+
+.profile-info {
+
+  position: absolute;
+
+  left: 13px;
+  right: 13px;
+  bottom: 13px;
+
+  padding: 14px 16px;
+
+  border-radius: 16px;
+
+  background:
+    rgba(255,255,255,.91);
+
+  border:
+    1px solid rgba(16,24,40,.06);
+
+  backdrop-filter: blur(15px);
+
+  box-shadow:
+    0 12px 30px rgba(15,23,42,.075);
+}
+
+.profile-info strong {
+
+  display: block;
+
+  color: var(--heading);
+
+  font-size: 13px;
+
+  margin-bottom: 4px;
+}
+
+.profile-info span {
+
+  color: var(--muted);
+
+  font-size: 11px;
+}
+
+.experience-badge {
+
+  position: absolute;
+
+  top: -17px;
+  right: -17px;
+
+  z-index: 5;
+
+  padding: 13px 16px;
+
+  border-radius: 15px;
+
+  background: white;
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow);
+
+  color: var(--muted);
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+.experience-badge strong {
+
+  display: block;
+
+  color: var(--primary);
+
+  font-family: "Manrope",sans-serif;
+
+  font-size: 20px;
+
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   STATS
+========================================================= */
+
+.stats-wrapper {
+  padding-bottom: 35px;
+}
+
+.stats {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4,1fr);
+
+  overflow: hidden;
+
+  border-radius: 21px;
+
+  background:
+    rgba(255,255,255,.9);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow);
+}
+
+.stat {
+
+  position: relative;
+
+  padding: 28px 20px;
+
+  text-align: center;
+}
+
+.stat:not(:last-child)::after {
+
+  content: "";
+
+  position: absolute;
+
+  right: 0;
+
+  top: 25%;
+  bottom: 25%;
+
+  width: 1px;
+
+  background: var(--border);
+}
+
+.stat strong {
+
+  display: block;
+
+  color: var(--heading);
+
+  font-family: "Manrope",sans-serif;
+
+  font-size: 28px;
+
+  font-weight: 800;
+
+  letter-spacing: -1px;
+
+  margin-bottom: 6px;
+}
+
+.stat span {
+
+  color: var(--muted);
+
+  font-size: 12px;
+
+  line-height: 1.5;
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   ABOUT
+========================================================= */
+
+.about-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    .8fr
+    1.2fr;
+
+  gap: 95px;
+
+  align-items: start;
+}
+
+.about-copy p {
+
+  color: var(--muted);
+
+  font-size: 16px;
+
+  line-height: 1.9;
+
+  margin-bottom: 19px;
+}
+
+.about-copy strong {
+  color: var(--heading);
+}
+
+.highlight-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2,1fr);
+
+  gap: 11px;
+
+  margin-top: 30px;
+}
+
+.highlight {
+
+  padding: 14px 15px;
+
+  border-radius: 14px;
+
+  background: var(--white);
+
+  border: 1px solid var(--border);
+
+  color: #475467;
+
+  box-shadow:
+    0 6px 18px rgba(15,23,42,.03);
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.highlight::before {
+
+  content: "✓";
+
+  width: 21px;
+  height: 21px;
+
+  display: inline-grid;
+
+  place-items: center;
+
+  margin-right: 7px;
+
+  border-radius: 50%;
+
+  background: var(--primary-soft);
+
+  color: var(--primary);
+
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   EXPERTISE
+========================================================= */
+
+.expertise-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4,1fr);
+
+  gap: 15px;
+}
+
+.expertise-card {
+
+  padding: 24px;
+
+  border-radius: 19px;
+
+  background:
+    rgba(255,255,255,.93);
+
+  border: 1px solid var(--border);
+
+  box-shadow:
+    0 10px 30px rgba(15,23,42,.04);
+
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease;
+}
+
+.expertise-card:hover {
+
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 18px 42px rgba(15,23,42,.065);
+}
+
+.expertise-icon {
+
+  min-width: 44px;
+  width: fit-content;
+  height: 44px;
+
+  padding: 0 11px;
+
+  display: grid;
+
+  place-items: center;
+
+  margin-bottom: 18px;
+
+  border-radius: 13px;
+
+  background: var(--primary-soft);
+
+  color: var(--primary);
+
+  font-size: 13px;
+
+  font-weight: 800;
+}
+
+.expertise-card h3 {
+
+  color: var(--heading);
+
+  font-family: "Manrope",sans-serif;
+
+  font-size: 15px;
+
+  line-height: 1.4;
+
+  font-weight: 800;
+
+  margin-bottom: 8px;
+}
+
+.expertise-card p {
+
+  color: var(--muted);
+
+  font-size: 12.5px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   EXPERIENCE
+========================================================= */
+
+.timeline {
+
+  position: relative;
+
+  max-width: 930px;
+}
+
+.timeline::before {
+
+  content: "";
+
+  position: absolute;
+
+  left: 17px;
+  top: 20px;
+  bottom: 30px;
+
+  width: 1px;
+
+  background:
+    linear-gradient(
+      to bottom,
+      var(--primary),
+      rgba(49,94,251,.08)
+    );
+}
+
+.exp-item {
+
+  display: grid;
+
+  grid-template-columns:
+    35px
+    1fr;
+
+  gap: 23px;
+
+  position: relative;
+
+  padding-bottom: 22px;
+}
+
+.timeline-point {
+
+  position: relative;
+
+  z-index: 2;
+
+  width: 35px;
+  height: 35px;
+
+  border-radius: 50%;
+
+  display: grid;
+
+  place-items: center;
+
+  background: white;
+
+  border:
+    1px solid rgba(49,94,251,.18);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.timeline-point::after {
+
+  content: "";
+
+  width: 9px;
+  height: 9px;
+
+  border-radius: 50%;
+
+  background: var(--primary);
+}
+
+.exp-card {
+
+  padding: 25px 27px;
+
+  background: white;
+
+  border: 1px solid var(--border);
+
+  border-radius: 19px;
+
+  box-shadow:
+    0 9px 28px rgba(15,23,42,.038);
+}
+
+.exp-header {
+
+  display: flex;
+
+  align-items: flex-start;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  margin-bottom: 15px;
+}
+
+.exp-card h3 {
+
+  color: var(--heading);
+
+  font-family: "Manrope",sans-serif;
+
+  font-size: 18px;
+
+  line-height: 1.35;
+
+  font-weight: 800;
+}
+
+.company {
+
+  color: var(--primary);
+
+  font-size: 12.5px;
+
+  font-weight: 800;
+
+  margin-top: 4px;
+}
+
+.exp-date {
+
+  flex-shrink: 0;
+
+  padding: 7px 10px;
+
+  border-radius: 10px;
+
+  background: #f6f8fc;
+
+  border: 1px solid var(--border);
+
+  color: var(--muted);
+
+  font-size: 10.5px;
+
+  font-weight: 700;
+}
+
+.exp-list {
+
+  padding-left: 18px;
+
+  color: var(--muted);
+}
+
+.exp-list li {
+
+  padding-left: 2px;
+
+  margin-bottom: 6px;
+
+  font-size: 13px;
+
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   PROJECTS
+========================================================= */
+
+.projects-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2,1fr);
+
+  gap: 18px;
+}
+
+.project-card {
+
+  position: relative;
+
+  overflow: hidden;
+
+  min-height: 355px;
+
+  padding: 27px;
+
+  border-radius: 22px;
+
+  background: white;
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease;
+}
+
+.project-card:hover {
+
+  transform: translateY(-5px);
+
+  box-shadow: var(--shadow);
+}
+
+.project-top {
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.project-tag {
+
+  display: inline-flex;
+
+  padding: 7px 10px;
+
+  border-radius: 9px;
+
+  background: var(--primary-soft);
+
+  color: var(--primary);
+
+  font-size: 9.5px;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+
+  letter-spacing: .8px;
+}
+
+.project-card h3 {
+
+  max-width: 63%;
+
+  margin: 25px 0 12px;
+
+  color: var(--heading);
+
+  font-family: "Manrope",sans-serif;
+
+  font-size: 21px;
+
+  line-height: 1.28;
+
+  letter-spacing: -.6px;
+
+  font-weight: 800;
+}
+
+.project-card p {
+
+  max-width: 67%;
+
+  color: var(--muted);
+
+  font-size: 13px;
+
+  line-height: 1.7;
+}
+
+.project-tech {
+
+  color: var(--muted-2);
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  margin-top: 24px;
+}
+
+.project-proof {
+
+  display: inline-flex;
+
+  width: fit-content;
+
+  align-items: center;
+
+  gap: 6px;
+
+  margin-top: 13px;
+
+  padding: 7px 9px;
+
+  border-radius: 9px;
+
+  background: #f7f9fc;
+
+  border: 1px solid var(--border);
+
+  color: #475467;
+
+  font-size: 10px;
+
+  font-weight: 700;
+}
+
+.project-proof::before {
+
+  content: "";
+
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+
+  background: var(--green);
+}
+
+.project-graphic {
+
+  position: absolute;
+
+  right: -8px;
+  top: 36px;
+
+  width: 40%;
+  max-width: 210px;
+
+  color: var(--primary);
+
+  opacity: .96;
+
+  transition:
+    transform .35s ease;
+}
+
+.project-card:hover .project-graphic {
+
+  transform:
+    translateY(-4px)
+    scale(1.025);
+}
+
+.project-graphic svg {
+
+  width: 100%;
+  height: auto;
+
+  overflow: visible;
+}
+
+
+/* =========================================================
+   MARKETPLACES
+========================================================= */
+
+.platform-groups {
+
+  display: grid;
+
+  gap: 42px;
+}
+
+.platform-group-title {
+
+  margin-bottom: 14px;
+
+  color: #475467;
+
+  font-size: 11px;
+
+  font-weight: 800;
+
+  letter-spacing: 1.1px;
+
+  text-transform: uppercase;
+}
+
+.marketplace-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(5,1fr);
+
+  gap: 12px;
+}
+
+.marketplace-card {
+
+  min-height: 76px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  padding: 13px;
+
+  border-radius: 16px;
+
+  background: white;
+
+  border: 1px solid var(--border);
+
+  box-shadow:
+    0 7px 22px rgba(15,23,42,.032);
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    border-color .2s ease;
+}
+
+.marketplace-card:hover {
+
+  transform: translateY(-3px);
+
+  border-color:
+    rgba(49,94,251,.18);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.portal-icon {
+
+  width: 40px;
+  height: 40px;
+
+  flex-shrink: 0;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 12px;
+
+  background: #f7f9fc;
+
+  border: 1px solid var(--border);
+
+  overflow: hidden;
+}
+
+.portal-icon img {
+
+  width: 25px;
+  height: 25px;
+
+  object-fit: contain;
+}
+
+.portal-fallback {
+
+  display: none;
+
+  width: 100%;
+  height: 100%;
+
+  place-items: center;
+
+  color: var(--primary);
+
+  font-family: "Manrope",sans-serif;
+
+  font-weight: 800;
+}
+
+.marketplace-card strong {
+
+  display: block;
+
+  color: var(--heading);
+
+  font-size: 12.5px;
+}
+
+.marketplace-card span.portal-type {
+
+  display: block;
+
+  color: var(--muted-2);
+
+  font-size: 9.5px;
+
+  margin-top: 2px;
+}
+
+
+/* =========================================================
+   TOOL CARDS
+========================================================= */
+
+.tools-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4,1fr);
+
+  gap: 12px;
+}
+
+.tool-card {
+
+  min-height: 100px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  padding: 15px;
+
+  border-radius: 16px;
+
+  background: white;
+
+  border: 1px solid var(--border);
+
+  box-shadow:
+    0 7px 22px rgba(15,23,42,.03);
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+}
+
+.tool-card:hover {
+
+  transform: translateY(-3px);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.tool-icon {
+
+  width: 49px;
+  height: 49px;
+
+  flex-shrink: 0;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 14px;
+
+  background: var(--primary-soft);
+
+  color: var(--primary);
+}
+
+.tool-icon svg {
+
+  width: 27px;
+  height: 27px;
+}
+
+.tool-icon.text-icon {
+
+  font-family: "Manrope",sans-serif;
+
+  font-weight: 800;
+
+  font-size: 12px;
+}
+
+.tool-card strong {
+
+  display: block;
+
+  color: var(--heading);
+
+  font-size: 12.5px;
+
+  font-weight: 800;
+}
+
+.tool-card small {
+
+  display: block;
+
+  margin-top: 3px;
+
+  color: var(--muted);
+
+  font-size: 9.8px;
+
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   EDUCATION
+========================================================= */
+
+.education-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3,1fr);
+
+  gap: 15px;
+}
+
+.education-card {
+
+  padding: 23px;
+
+  border-radius: 18px;
+
+  background: white;
+
+  border: 1px solid var(--border);
+
+  box-shadow:
+    0 8px 24px rgba(15,23,42,.035);
+}
+
+.education-year {
+
+  display: inline-flex;
+
+  padding: 6px 9px;
+
+  margin-bottom: 16px;
+
+  border-radius: 8px;
+
+  background: var(--primary-soft);
+
+  color: var(--primary);
+
+  font-size: 10px;
+
+  font-weight: 800;
+}
+
+.education-card h3 {
+
+  margin-bottom: 7px;
+
+  color: var(--heading);
+
+  font-family: "Manrope",sans-serif;
+
+  font-size: 16px;
+
+  line-height: 1.4;
+
+  font-weight: 800;
+}
+
+.education-card p {
+
+  color: var(--muted);
+
+  font-size: 12px;
+
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.contact-card {
+
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 62px;
+
+  border-radius: 27px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffffff,
+      #f2f6ff
+    );
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow);
+}
+
+.contact-card::after {
+
+  content: "";
+
+  position: absolute;
+
+  right: -120px;
+  bottom: -180px;
+
+  width: 320px;
+  height: 320px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(49,94,251,.13);
+
+  filter: blur(70px);
+}
+
+.contact-content {
+
+  max-width: 810px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.contact-card h2 {
+
+  margin-bottom: 18px;
+
+  color: var(--heading);
+
+  font-family: "Manrope",sans-serif;
+
+  font-size: clamp(36px,5vw,56px);
+
+  line-height: 1.08;
+
+  letter-spacing: -2.1px;
+
+  font-weight: 800;
+}
+
+.contact-card p {
+
+  max-width: 650px;
+
+  margin-bottom: 28px;
+
+  color: var(--muted);
+
+  font-size: 15px;
+
+  line-height: 1.75;
+}
+
+.contact-details {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 9px;
+
+  margin-top: 22px;
+}
+
+.contact-detail {
+
+  padding: 10px 13px;
+
+  border-radius: 11px;
+
+  background:
+    rgba(255,255,255,.8);
+
+  border: 1px solid var(--border);
+
+  color: #475467;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   WHATSAPP
+========================================================= */
+
+.floating-whatsapp {
+
+  position: fixed;
+
+  right: 22px;
+  bottom: 22px;
+
+  z-index: 900;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 12px 16px;
+
+  border-radius: 100px;
+
+  background: #1eaf68;
+
+  color: white;
+
+  box-shadow:
+    0 14px 35px rgba(30,175,104,.26);
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  transition:
+    transform .2s ease;
+}
+
+.floating-whatsapp:hover {
+  transform: translateY(-3px);
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+
+  padding: 30px 0;
+
+  border-top:
+    1px solid var(--border);
+
+  background:
+    rgba(255,255,255,.5);
+}
+
+.footer-inner {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 20px;
+
+  color: var(--muted);
+
+  font-size: 11px;
+}
+
+.footer-name {
+
+  color: var(--heading);
+
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   REVEAL
+========================================================= */
+
+.reveal {
+
+  opacity: 0;
+
+  transform: translateY(21px);
+
+  transition:
+    opacity .7s ease,
+    transform .7s ease;
+}
+
+.reveal.visible {
+
+  opacity: 1;
+
+  transform: translateY(0);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width:1000px) {
+
+  .expertise-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .marketplace-grid {
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .tools-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .hero-grid {
+
+    grid-template-columns:
+      1fr
+      minmax(300px,.75fr);
+
+    gap: 45px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width:760px) {
+
+  .container {
+
+    width:
+      min(
+        calc(100% - 32px),
         var(--container)
       );
+  }
 
-      margin-inline: auto;
+  .section {
+    padding: 75px 0;
+  }
 
-    }
+  .nav-inner {
+    min-height: 69px;
+  }
 
+  .nav-links {
 
-    .section {
-      padding: 105px 0;
-    }
+    position: fixed;
 
+    top: 77px;
+    left: 16px;
+    right: 16px;
 
-    .section-soft {
+    display: none;
 
-      background: rgba(239, 244, 250, .72);
+    flex-direction: column;
 
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
+    align-items: stretch;
 
-    }
+    gap: 4px;
 
+    padding: 12px;
 
-    .section-header {
+    border-radius: 18px;
 
-      max-width: 760px;
+    background:
+      rgba(255,255,255,.97);
 
-      margin-bottom: 50px;
+    border: 1px solid var(--border);
 
-    }
+    box-shadow: var(--shadow);
 
+    backdrop-filter: blur(20px);
+  }
 
-    .eyebrow {
+  .nav-links.open {
+    display: flex;
+  }
 
-      display: inline-flex;
+  .nav-links a {
 
-      align-items: center;
+    padding: 12px;
 
-      gap: 10px;
+    border-radius: 11px;
+  }
 
-      color: var(--primary);
+  .nav-links a::after {
+    display: none;
+  }
 
-      font-size: 12px;
+  .nav-contact {
+    text-align: center;
+  }
 
-      font-weight: 800;
+  .menu-btn {
+    display: flex;
+  }
 
-      letter-spacing: 1.6px;
+  .hero {
 
-      text-transform: uppercase;
+    min-height: auto;
 
-      margin-bottom: 17px;
+    padding: 110px 0 65px;
+  }
 
-    }
+  .hero-grid {
 
+    grid-template-columns: 1fr;
 
-    .eyebrow::before {
+    gap: 50px;
+  }
 
-      content: "";
+  .hero-title {
 
-      width: 27px;
+    font-size:
+      clamp(47px,15vw,67px);
 
-      height: 2px;
+    letter-spacing: -3.2px;
+  }
 
-      border-radius: 3px;
+  .hero-role {
+    font-size: 18px;
+  }
 
-      background: var(--primary);
+  .hero-description {
+    font-size: 15px;
+  }
 
-    }
+  .profile-area {
 
+    width: 100%;
 
-    .section-title {
+    max-width: 430px;
 
-      font-family: "Manrope", sans-serif;
+    margin-inline: auto;
+  }
 
-      color: var(--heading);
+  .profile-card {
+    width: 100%;
+  }
 
-      font-size: clamp(
-        34px,
-        5vw,
-        57px
-      );
+  .experience-badge {
 
-      line-height: 1.08;
+    right: 10px;
+    top: -16px;
+  }
 
-      letter-spacing: -2.2px;
+  .stats {
+    grid-template-columns: repeat(2,1fr);
+  }
 
-      font-weight: 800;
+  .stat:nth-child(2)::after {
+    display: none;
+  }
 
-    }
+  .stat:nth-child(-n+2) {
+    border-bottom: 1px solid var(--border);
+  }
 
+  .about-grid {
 
-    .section-description {
+    grid-template-columns: 1fr;
 
-      max-width: 700px;
+    gap: 30px;
+  }
 
-      margin-top: 18px;
+  .highlight-grid {
+    grid-template-columns: 1fr;
+  }
 
-      color: var(--muted);
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
 
-      font-size: 16px;
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 
-      line-height: 1.8;
+  .project-card {
+    min-height: 370px;
+  }
 
-    }
+  .marketplace-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
 
+  .tools-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
 
-    .chip {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
 
-      display: inline-flex;
+  .contact-card {
+    padding: 38px 23px;
+  }
 
-      align-items: center;
+  .footer-inner {
 
-      padding: 9px 13px;
+    flex-direction: column;
 
-      border-radius: 100px;
+    align-items: flex-start;
+  }
 
-      background: var(--white);
+}
 
-      border: 1px solid var(--border);
 
-      color: #475467;
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
 
-      font-size: 12px;
+@media (max-width:480px) {
 
-      font-weight: 700;
+  .hero-title {
 
-      box-shadow:
-        0 5px 15px rgba(15, 23, 42, .025);
+    font-size: 47px;
 
-    }
+    line-height: 1;
 
+    letter-spacing: -3px;
+  }
 
-    /* =========================================================
-       NAVBAR
-    ========================================================= */
+  .hero-actions {
+    display: grid;
+  }
 
-    .navbar {
+  .btn {
+    width: 100%;
+  }
 
-      position: fixed;
+  .section-title {
 
-      top: 0;
-      left: 0;
-      right: 0;
+    font-size: 34px;
 
-      z-index: 1000;
+    letter-spacing: -1.5px;
+  }
 
-      transition:
-        background .25s ease,
-        box-shadow .25s ease,
-        border-color .25s ease;
+  .stat {
 
-    }
+    padding: 22px 12px;
+  }
 
+  .stat strong {
+    font-size: 23px;
+  }
 
-    .navbar.scrolled {
+  .exp-header {
 
-      background: rgba(255, 255, 255, .88);
+    flex-direction: column;
 
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
+    gap: 9px;
+  }
 
-      border-bottom: 1px solid var(--border);
+  .exp-date {
+    width: fit-content;
+  }
 
-      box-shadow:
-        0 8px 28px rgba(15, 23, 42, .035);
+  .exp-card {
+    padding: 20px;
+  }
 
-    }
+  .project-card {
 
+    min-height: 410px;
 
-    .nav-inner {
+    padding: 22px;
+  }
 
-      min-height: 78px;
+  .project-card h3,
+  .project-card p {
 
-      display: flex;
+    max-width: 100%;
+  }
 
-      align-items: center;
+  .project-graphic {
 
-      justify-content: space-between;
+    position: relative;
 
-      gap: 30px;
+    top: auto;
+    right: auto;
 
-    }
+    width: 180px;
 
+    margin:
+      15px auto
+      0;
+  }
 
-    .brand {
+  .marketplace-grid {
+    grid-template-columns: 1fr;
+  }
 
-      display: flex;
+  .tools-grid {
+    grid-template-columns: 1fr;
+  }
 
-      align-items: center;
+  .floating-whatsapp {
 
-      gap: 11px;
+    right: 15px;
+    bottom: 15px;
+  }
 
-      flex-shrink: 0;
+}
 
-    }
 
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
 
-    .brand-mark {
+@media (prefers-reduced-motion:reduce) {
 
-      width: 42px;
-      height: 42px;
+  *,
+  *::before,
+  *::after {
 
-      border-radius: 14px;
+    animation-duration:
+      .01ms !important;
 
-      display: grid;
+    transition-duration:
+      .01ms !important;
+  }
 
-      place-items: center;
+  html {
+    scroll-behavior: auto;
+  }
 
-      color: var(--primary);
+}
 
-      background: rgba(255, 255, 255, .9);
-
-      border: 1px solid var(--border);
-
-      box-shadow: var(--shadow-sm);
-
-      font-family: "Manrope", sans-serif;
-
-      font-size: 14px;
-
-      font-weight: 800;
-
-    }
-
-
-    .brand-text {
-
-      color: var(--heading);
-
-      font-size: 14px;
-
-      font-weight: 800;
-
-    }
-
-
-    .nav-links {
-
-      display: flex;
-
-      align-items: center;
-
-      gap: 27px;
-
-    }
-
-
-    .nav-links a {
-
-      color: #475467;
-
-      font-size: 13px;
-
-      font-weight: 700;
-
-      transition:
-        color .2s ease,
-        background .2s ease;
-
-    }
-
-
-    .nav-links a:hover {
-      color: var(--primary);
-    }
-
-
-    .nav-contact {
-
-      padding: 10px 16px;
-
-      border-radius: 100px;
-
-      color: var(--primary) !important;
-
-      background: rgba(255, 255, 255, .7);
-
-      border:
-        1px solid rgba(49, 94, 251, .18);
-
-    }
-
-
-    .nav-contact:hover {
-      background: var(--primary-soft);
-    }
-
-
-    .menu-btn {
-
-      display: none;
-
-      width: 44px;
-      height: 44px;
-
-      border-radius: 13px;
-
-      align-items: center;
-
-      justify-content: center;
-
-      background: var(--white);
-
-      color: var(--heading);
-
-      border: 1px solid var(--border);
-
-      box-shadow: var(--shadow-sm);
-
-      cursor: pointer;
-
-      font-size: 19px;
-
-    }
-
-
-    /* =========================================================
-       HERO
-    ========================================================= */
-
-    .hero {
-
-      min-height: 100svh;
-
-      display: flex;
-
-      align-items: center;
-
-      padding:
-        125px 0
-        70px;
-
-      position: relative;
-
-      overflow: hidden;
-
-    }
-
-
-    .hero::before {
-
-      content: "";
-
-      position: absolute;
-
-      right: -150px;
-
-      top: 100px;
-
-      width: 480px;
-      height: 480px;
-
-      border-radius: 50%;
-
-      background:
-        rgba(49, 94, 251, .11);
-
-      filter: blur(135px);
-
-      pointer-events: none;
-
-    }
-
-
-    .hero-grid {
-
-      display: grid;
-
-      grid-template-columns:
-        minmax(0, 1.15fr)
-        minmax(340px, .85fr);
-
-      gap: 80px;
-
-      align-items: center;
-
-      position: relative;
-
-      z-index: 2;
-
-    }
-
-
-    .availability {
-
-      width: fit-content;
-
-      display: inline-flex;
-
-      align-items: center;
-
-      gap: 10px;
-
-      margin-bottom: 27px;
-
-      padding: 9px 14px;
-
-      border-radius: 100px;
-
-      background: rgba(255, 255, 255, .84);
-
-      border: 1px solid var(--border);
-
-      box-shadow: var(--shadow-sm);
-
-      color: #475467;
-
-      font-size: 12px;
-
-      font-weight: 700;
-
-    }
-
-
-    .availability-dot {
-
-      width: 8px;
-      height: 8px;
-
-      border-radius: 50%;
-
-      background: var(--green);
-
-      box-shadow:
-        0 0 0 5px rgba(25, 169, 107, .10);
-
-    }
-
-
-    .hero-title {
-
-      color: var(--heading);
-
-      font-family: "Manrope", sans-serif;
-
-      font-size: clamp(
-        52px,
-        7vw,
-        85px
-      );
-
-      line-height: .98;
-
-      letter-spacing: -4px;
-
-      font-weight: 800;
-
-      margin-bottom: 25px;
-
-    }
-
-
-    .hero-title span {
-      color: var(--primary);
-    }
-
-
-    .hero-role {
-
-      color: #344054;
-
-      font-size: clamp(
-        19px,
-        2.2vw,
-        26px
-      );
-
-      font-weight: 600;
-
-      line-height: 1.45;
-
-      letter-spacing: -.4px;
-
-      margin-bottom: 21px;
-
-    }
-
-
-    .hero-description {
-
-      max-width: 690px;
-
-      color: var(--muted);
-
-      font-size: 16px;
-
-      line-height: 1.85;
-
-      margin-bottom: 33px;
-
-    }
-
-
-    .hero-actions {
-
-      display: flex;
-
-      flex-wrap: wrap;
-
-      gap: 11px;
-
-    }
-
-
-    .btn {
-
-      min-height: 50px;
-
-      display: inline-flex;
-
-      align-items: center;
-
-      justify-content: center;
-
-      gap: 9px;
-
-      padding: 0 20px;
-
-      border-radius: 13px;
-
-      font-size: 13px;
-
-      font-weight: 800;
-
-      transition:
-        transform .2s ease,
-        background .2s ease,
-        box-shadow .2s ease,
-        border-color .2s ease;
-
-    }
-
-
-    .btn-primary {
-
-      color: white;
-
-      background: var(--primary);
-
-      border: 1px solid var(--primary);
-
-      box-shadow:
-        0 12px 30px rgba(49, 94, 251, .20);
-
-    }
-
-
-    .btn-primary:hover {
-
-      transform: translateY(-3px);
-
-      background: var(--primary-dark);
-
-      border-color: var(--primary-dark);
-
-      box-shadow:
-        0 16px 35px rgba(49, 94, 251, .24);
-
-    }
-
-
-    .btn-secondary {
-
-      color: #344054;
-
-      background: rgba(255, 255, 255, .9);
-
-      border: 1px solid var(--border-strong);
-
-      box-shadow: var(--shadow-sm);
-
-    }
-
-
-    .btn-secondary:hover {
-
-      transform: translateY(-3px);
-
-      color: var(--primary);
-
-      border-color:
-        rgba(49, 94, 251, .22);
-
-    }
-
-
-    /* =========================================================
-       PROFILE
-    ========================================================= */
-
-    .profile-area {
-
-      position: relative;
-
-      display: flex;
-
-      justify-content: center;
-
-      align-items: center;
-
-    }
-
-
-    .profile-orbit {
-
-      position: absolute;
-
-      width: 405px;
-      height: 405px;
-
-      border-radius: 50%;
-
-      border:
-        1px dashed rgba(49, 94, 251, .14);
-
-      animation:
-        orbit 28s linear infinite;
-
-    }
-
-
-    .profile-orbit::before {
-
-      content: "";
-
-      position: absolute;
-
-      width: 11px;
-      height: 11px;
-
-      border-radius: 50%;
-
-      background: var(--primary);
-
-      top: 36px;
-      left: 70px;
-
-      box-shadow:
-        0 0 0 7px rgba(49, 94, 251, .07);
-
-    }
-
-
-    @keyframes orbit {
-
-      to {
-        transform: rotate(360deg);
-      }
-
-    }
-
-
-    .profile-card {
-
-      width: min(
-        100%,
-        390px
-      );
-
-      padding: 13px;
-
-      position: relative;
-
-      z-index: 3;
-
-      border-radius: 30px;
-
-      background:
-        rgba(255, 255, 255, .82);
-
-      border:
-        1px solid rgba(255, 255, 255, .96);
-
-      box-shadow: var(--shadow-lg);
-
-      backdrop-filter: blur(15px);
-
-      transform: rotate(1.5deg);
-
-    }
-
-
-    .profile-image-wrap {
-
-      position: relative;
-
-      overflow: hidden;
-
-      aspect-ratio: 1 / 1;
-
-      border-radius: 23px;
-
-      background: #e9eef7;
-
-    }
-
-
-    .profile-image {
-
-      width: 100%;
-      height: 100%;
-
-      object-fit: cover;
-
-      object-position: center center;
-
-      transition:
-        transform .5s ease;
-
-    }
-
-
-    .profile-card:hover .profile-image {
-      transform: scale(1.025);
-    }
-
-
-    .profile-info {
-
-      position: absolute;
-
-      left: 13px;
-      right: 13px;
-      bottom: 13px;
-
-      padding: 14px 16px;
-
-      border-radius: 16px;
-
-      background:
-        rgba(255, 255, 255, .90);
-
-      border:
-        1px solid rgba(16, 24, 40, .06);
-
-      box-shadow:
-        0 12px 30px rgba(15, 23, 42, .08);
-
-      backdrop-filter: blur(15px);
-
-    }
-
-
-    .profile-info strong {
-
-      display: block;
-
-      color: var(--heading);
-
-      font-size: 13px;
-
-      margin-bottom: 4px;
-
-    }
-
-
-    .profile-info span {
-
-      color: var(--muted);
-
-      font-size: 11px;
-
-    }
-
-
-    .hero-float {
-
-      position: absolute;
-
-      z-index: 5;
-
-      left: -45px;
-      top: 75px;
-
-      padding: 14px 16px;
-
-      border-radius: 15px;
-
-      background:
-        rgba(255, 255, 255, .94);
-
-      border: 1px solid var(--border);
-
-      box-shadow: var(--shadow);
-
-      color: #475467;
-
-      font-size: 11px;
-
-      font-weight: 700;
-
-    }
-
-
-    .hero-float strong {
-
-      display: block;
-
-      color: var(--primary);
-
-      font-size: 18px;
-
-      margin-bottom: 3px;
-
-    }
-
-
-    /* =========================================================
-       STATS
-    ========================================================= */
-
-    .stats-wrapper {
-      padding-bottom: 35px;
-    }
-
-
-    .stats {
-
-      display: grid;
-
-      grid-template-columns:
-        repeat(4, 1fr);
-
-      overflow: hidden;
-
-      background:
-        rgba(255, 255, 255, .90);
-
-      border: 1px solid var(--border);
-
-      border-radius: 21px;
-
-      box-shadow: var(--shadow);
-
-    }
-
-
-    .stat {
-
-      padding: 28px 20px;
-
-      text-align: center;
-
-      position: relative;
-
-    }
-
-
-    .stat:not(:last-child)::after {
-
-      content: "";
-
-      position: absolute;
-
-      right: 0;
-      top: 25%;
-      bottom: 25%;
-
-      width: 1px;
-
-      background: var(--border);
-
-    }
-
-
-    .stat strong {
-
-      display: block;
-
-      color: var(--heading);
-
-      font-family: "Manrope", sans-serif;
-
-      font-size: 28px;
-
-      font-weight: 800;
-
-      letter-spacing: -1px;
-
-      margin-bottom: 6px;
-
-    }
-
-
-    .stat span {
-
-      color: var(--muted);
-
-      font-size: 12px;
-
-      line-height: 1.5;
-
-      font-weight: 600;
-
-    }
-
-
-    /* =========================================================
-       ABOUT
-    ========================================================= */
-
-    .about-grid {
-
-      display: grid;
-
-      grid-template-columns:
-        .8fr
-        1.2fr;
-
-      gap: 95px;
-
-      align-items: start;
-
-    }
-
-
-    .about-text p {
-
-      color: var(--muted);
-
-      font-size: 16px;
-
-      line-height: 1.9;
-
-      margin-bottom: 19px;
-
-    }
-
-
-    .about-text strong {
-      color: var(--heading);
-    }
-
-
-    .highlight-grid {
-
-      display: grid;
-
-      grid-template-columns:
-        repeat(2, 1fr);
-
-      gap: 11px;
-
-      margin-top: 30px;
-
-    }
-
-
-    .highlight-item {
-
-      padding: 14px 15px;
-
-      border-radius: 14px;
-
-      background: var(--white);
-
-      border: 1px solid var(--border);
-
-      box-shadow:
-        0 6px 18px rgba(15, 23, 42, .03);
-
-      color: #475467;
-
-      font-size: 12px;
-
-      font-weight: 700;
-
-    }
-
-
-    .highlight-item::before {
-
-      content: "✓";
-
-      width: 21px;
-      height: 21px;
-
-      display: inline-grid;
-
-      place-items: center;
-
-      margin-right: 7px;
-
-      border-radius: 50%;
-
-      color: var(--primary);
-
-      background: var(--primary-soft);
-
-      font-size: 10px;
-
-    }
-
-
-    /* =========================================================
-       EXPERTISE
-    ========================================================= */
-
-    .expertise-grid {
-
-      display: grid;
-
-      grid-template-columns:
-        repeat(4, 1fr);
-
-      gap: 15px;
-
-    }
-
-
-    .expertise-card {
-
-      padding: 24px;
-
-      border-radius: 19px;
-
-      background:
-        rgba(255, 255, 255, .92);
-
-      border: 1px solid var(--border);
-
-      box-shadow:
-        0 10px 30px rgba(15, 23, 42, .04);
-
-      transition:
-        transform .25s ease,
-        border-color .25s ease,
-        box-shadow .25s ease;
-
-    }
-
-
-    .expertise-card:hover {
-
-      transform: translateY(-5px);
-
-      border-color:
-        rgba(49, 94, 251, .18);
-
-      box-shadow:
-        0 18px 42px rgba(15, 23, 42, .065);
-
-    }
-
-
-    .expertise-icon {
-
-      width: 44px;
-      height: 44px;
-
-      border-radius: 13px;
-
-      display: grid;
-
-      place-items: center;
-
-      margin-bottom: 18px;
-
-      color: var(--primary);
-
-      background: var(--primary-soft);
-
-      font-size: 17px;
-
-      font-weight: 800;
-
-    }
-
-
-    .expertise-card h3 {
-
-      color: var(--heading);
-
-      font-family: "Manrope", sans-serif;
-
-      font-size: 15px;
-
-      line-height: 1.4;
-
-      margin-bottom: 8px;
-
-      font-weight: 800;
-
-    }
-
-
-    .expertise-card p {
-
-      color: var(--muted);
-
-      font-size: 12.5px;
-
-      line-height: 1.7;
-
-    }
-
-
-    /* =========================================================
-       EXPERIENCE
-    ========================================================= */
-
-    .timeline {
-
-      position: relative;
-
-      max-width: 920px;
-
-    }
-
-
-    .timeline::before {
-
-      content: "";
-
-      position: absolute;
-
-      left: 17px;
-      top: 20px;
-      bottom: 30px;
-
-      width: 1px;
-
-      background:
-        linear-gradient(
-          to bottom,
-          var(--primary),
-          rgba(49, 94, 251, .08)
-        );
-
-    }
-
-
-    .experience-item {
-
-      display: grid;
-
-      grid-template-columns:
-        35px
-        1fr;
-
-      gap: 23px;
-
-      position: relative;
-
-      padding-bottom: 22px;
-
-    }
-
-
-    .timeline-point {
-
-      position: relative;
-
-      z-index: 2;
-
-      width: 35px;
-      height: 35px;
-
-      border-radius: 50%;
-
-      display: grid;
-
-      place-items: center;
-
-      background: var(--white);
-
-      border:
-        1px solid rgba(49, 94, 251, .18);
-
-      box-shadow: var(--shadow-sm);
-
-    }
-
-
-    .timeline-point::after {
-
-      content: "";
-
-      width: 9px;
-      height: 9px;
-
-      border-radius: 50%;
-
-      background: var(--primary);
-
-    }
-
-
-    .experience-card {
-
-      padding: 25px 27px;
-
-      background: var(--white);
-
-      border: 1px solid var(--border);
-
-      border-radius: 19px;
-
-      box-shadow:
-        0 9px 28px rgba(15, 23, 42, .038);
-
-    }
-
-
-    .experience-header {
-
-      display: flex;
-
-      justify-content: space-between;
-
-      align-items: flex-start;
-
-      gap: 20px;
-
-      margin-bottom: 15px;
-
-    }
-
-
-    .experience-card h3 {
-
-      color: var(--heading);
-
-      font-family: "Manrope", sans-serif;
-
-      font-size: 18px;
-
-      line-height: 1.35;
-
-      font-weight: 800;
-
-    }
-
-
-    .company {
-
-      color: var(--primary);
-
-      font-size: 12.5px;
-
-      font-weight: 800;
-
-      margin-top: 4px;
-
-    }
-
-
-    .experience-date {
-
-      flex-shrink: 0;
-
-      padding: 7px 10px;
-
-      border-radius: 10px;
-
-      background: #f6f8fc;
-
-      border: 1px solid var(--border);
-
-      color: var(--muted);
-
-      font-size: 10.5px;
-
-      font-weight: 700;
-
-    }
-
-
-    .experience-list {
-
-      padding-left: 18px;
-
-      color: var(--muted);
-
-    }
-
-
-    .experience-list li {
-
-      padding-left: 2px;
-
-      margin-bottom: 6px;
-
-      font-size: 13px;
-
-      line-height: 1.65;
-
-    }
-
-
-    /* =========================================================
-       PROJECTS
-    ========================================================= */
-
-    .projects-grid {
-
-      display: grid;
-
-      grid-template-columns:
-        repeat(2, 1fr);
-
-      gap: 17px;
-
-    }
-
-
-    .project-card {
-
-      min-height: 295px;
-
-      display: flex;
-
-      flex-direction: column;
-
-      justify-content: space-between;
-
-      position: relative;
-
-      overflow: hidden;
-
-      padding: 27px;
-
-      border-radius: 21px;
-
-      background: var(--white);
-
-      border: 1px solid var(--border);
-
-      box-shadow: var(--shadow-sm);
-
-      transition:
-        transform .25s ease,
-        box-shadow .25s ease;
-
-    }
-
-
-    .project-card:hover {
-
-      transform: translateY(-5px);
-
-      box-shadow: var(--shadow);
-
-    }
-
-
-    .project-card::after {
-
-      content: "";
-
-      position: absolute;
-
-      right: -90px;
-      top: -100px;
-
-      width: 210px;
-      height: 210px;
-
-      border-radius: 50%;
-
-      background:
-        rgba(49, 94, 251, .055);
-
-    }
-
-
-    .project-tag {
-
-      width: fit-content;
-
-      padding: 7px 10px;
-
-      border-radius: 9px;
-
-      background: var(--primary-soft);
-
-      color: var(--primary);
-
-      font-size: 9.5px;
-
-      text-transform: uppercase;
-
-      letter-spacing: .8px;
-
-      font-weight: 800;
-
-    }
-
-
-    .project-card h3 {
-
-      color: var(--heading);
-
-      font-family: "Manrope", sans-serif;
-
-      font-size: 21px;
-
-      line-height: 1.28;
-
-      font-weight: 800;
-
-      letter-spacing: -.6px;
-
-      margin: 24px 0 12px;
-
-    }
-
-
-    .project-card p {
-
-      color: var(--muted);
-
-      font-size: 13px;
-
-      line-height: 1.7;
-
-    }
-
-
-    .project-tech {
-
-      margin-top: 25px;
-
-      color: var(--light-muted);
-
-      font-size: 10px;
-
-      font-weight: 700;
-
-    }
-
-
-    /* =========================================================
-       PLATFORMS / TOOLS
-    ========================================================= */
-
-    .tool-block {
-
-      margin-bottom: 38px;
-
-    }
-
-
-    .tool-block:last-child {
-      margin-bottom: 0;
-    }
-
-
-    .tool-label {
-
-      color: #475467;
-
-      font-size: 11px;
-
-      font-weight: 800;
-
-      text-transform: uppercase;
-
-      letter-spacing: 1.1px;
-
-      margin-bottom: 14px;
-
-    }
-
-
-    .tool-chips {
-
-      display: flex;
-
-      flex-wrap: wrap;
-
-      gap: 9px;
-
-    }
-
-
-    /* =========================================================
-       EDUCATION
-    ========================================================= */
-
-    .education-grid {
-
-      display: grid;
-
-      grid-template-columns:
-        repeat(3, 1fr);
-
-      gap: 15px;
-
-    }
-
-
-    .education-card {
-
-      padding: 23px;
-
-      background: var(--white);
-
-      border: 1px solid var(--border);
-
-      border-radius: 18px;
-
-      box-shadow:
-        0 8px 24px rgba(15, 23, 42, .035);
-
-    }
-
-
-    .education-year {
-
-      width: fit-content;
-
-      padding: 6px 9px;
-
-      border-radius: 8px;
-
-      margin-bottom: 16px;
-
-      background: var(--primary-soft);
-
-      color: var(--primary);
-
-      font-size: 10px;
-
-      font-weight: 800;
-
-    }
-
-
-    .education-card h3 {
-
-      color: var(--heading);
-
-      font-family: "Manrope", sans-serif;
-
-      font-size: 16px;
-
-      font-weight: 800;
-
-      line-height: 1.4;
-
-      margin-bottom: 7px;
-
-    }
-
-
-    .education-card p {
-
-      color: var(--muted);
-
-      font-size: 12px;
-
-      line-height: 1.65;
-
-    }
-
-
-    /* =========================================================
-       CONTACT
-    ========================================================= */
-
-    .contact-card {
-
-      position: relative;
-
-      overflow: hidden;
-
-      padding: 62px;
-
-      border-radius: 27px;
-
-      background:
-        linear-gradient(
-          135deg,
-          #ffffff,
-          #f2f6ff
-        );
-
-      border: 1px solid var(--border);
-
-      box-shadow: var(--shadow);
-
-    }
-
-
-    .contact-card::after {
-
-      content: "";
-
-      position: absolute;
-
-      width: 320px;
-      height: 320px;
-
-      right: -120px;
-      bottom: -180px;
-
-      border-radius: 50%;
-
-      background:
-        rgba(49, 94, 251, .13);
-
-      filter: blur(70px);
-
-    }
-
-
-    .contact-content {
-
-      max-width: 800px;
-
-      position: relative;
-
-      z-index: 2;
-
-    }
-
-
-    .contact-card h2 {
-
-      color: var(--heading);
-
-      font-family: "Manrope", sans-serif;
-
-      font-size: clamp(
-        36px,
-        5vw,
-        56px
-      );
-
-      line-height: 1.08;
-
-      letter-spacing: -2.1px;
-
-      font-weight: 800;
-
-      margin-bottom: 18px;
-
-    }
-
-
-    .contact-card p {
-
-      max-width: 650px;
-
-      color: var(--muted);
-
-      font-size: 15px;
-
-      line-height: 1.75;
-
-      margin-bottom: 28px;
-
-    }
-
-
-    .contact-details {
-
-      display: flex;
-
-      flex-wrap: wrap;
-
-      gap: 9px;
-
-      margin-top: 22px;
-
-    }
-
-
-    .contact-detail {
-
-      padding: 10px 13px;
-
-      border-radius: 11px;
-
-      background:
-        rgba(255, 255, 255, .78);
-
-      border: 1px solid var(--border);
-
-      color: #475467;
-
-      font-size: 11px;
-
-      font-weight: 700;
-
-    }
-
-
-    /* =========================================================
-       FLOATING WHATSAPP
-    ========================================================= */
-
-    .floating-whatsapp {
-
-      position: fixed;
-
-      right: 22px;
-      bottom: 22px;
-
-      z-index: 900;
-
-      display: flex;
-
-      align-items: center;
-
-      gap: 8px;
-
-      padding: 12px 16px;
-
-      border-radius: 100px;
-
-      background: #1daf68;
-
-      color: white;
-
-      box-shadow:
-        0 14px 35px rgba(29, 175, 104, .26);
-
-      font-size: 12px;
-
-      font-weight: 800;
-
-      transition:
-        transform .2s ease;
-
-    }
-
-
-    .floating-whatsapp:hover {
-      transform: translateY(-3px);
-    }
-
-
-    /* =========================================================
-       FOOTER
-    ========================================================= */
-
-    footer {
-
-      padding: 30px 0;
-
-      border-top: 1px solid var(--border);
-
-      background:
-        rgba(255, 255, 255, .5);
-
-    }
-
-
-    .footer-inner {
-
-      display: flex;
-
-      justify-content: space-between;
-
-      align-items: center;
-
-      gap: 20px;
-
-      color: var(--muted);
-
-      font-size: 11px;
-
-    }
-
-
-    .footer-name {
-
-      color: var(--heading);
-
-      font-weight: 800;
-
-    }
-
-
-    /* =========================================================
-       REVEAL
-    ========================================================= */
-
-    .reveal {
-
-      opacity: 0;
-
-      transform: translateY(22px);
-
-      transition:
-        opacity .7s ease,
-        transform .7s ease;
-
-    }
-
-
-    .reveal.visible {
-
-      opacity: 1;
-
-      transform: translateY(0);
-
-    }
-
-
-    /* =========================================================
-       TABLET
-    ========================================================= */
-
-    @media (max-width: 1000px) {
-
-      .expertise-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-
-      .hero-grid {
-
-        grid-template-columns:
-          1fr
-          minmax(300px, .75fr);
-
-        gap: 45px;
-
-      }
-
-    }
-
-
-    /* =========================================================
-       MOBILE
-    ========================================================= */
-
-    @media (max-width: 760px) {
-
-      .container {
-
-        width:
-          min(
-            calc(100% - 32px),
-            var(--container)
-          );
-
-      }
-
-
-      .section {
-        padding: 75px 0;
-      }
-
-
-      .nav-inner {
-        min-height: 69px;
-      }
-
-
-      .nav-links {
-
-        position: fixed;
-
-        top: 77px;
-
-        left: 16px;
-        right: 16px;
-
-        display: none;
-
-        flex-direction: column;
-
-        align-items: stretch;
-
-        gap: 4px;
-
-        padding: 12px;
-
-        border-radius: 18px;
-
-        background:
-          rgba(255, 255, 255, .97);
-
-        border: 1px solid var(--border);
-
-        box-shadow: var(--shadow);
-
-        backdrop-filter: blur(20px);
-
-      }
-
-
-      .nav-links.open {
-        display: flex;
-      }
-
-
-      .nav-links a {
-
-        padding: 12px;
-
-        border-radius: 11px;
-
-      }
-
-
-      .nav-links a:hover {
-        background: #f6f8fc;
-      }
-
-
-      .nav-contact {
-        text-align: center;
-      }
-
-
-      .menu-btn {
-        display: flex;
-      }
-
-
-      .hero {
-
-        min-height: auto;
-
-        padding:
-          110px 0
-          65px;
-
-      }
-
-
-      .hero-grid {
-
-        grid-template-columns: 1fr;
-
-        gap: 50px;
-
-      }
-
-
-      .hero-title {
-
-        font-size:
-          clamp(47px, 15vw, 67px);
-
-        letter-spacing: -3.2px;
-
-      }
-
-
-      .hero-role {
-        font-size: 18px;
-      }
-
-
-      .hero-description {
-        font-size: 15px;
-      }
-
-
-      .profile-area {
-
-        width: 100%;
-
-        max-width: 430px;
-
-        margin-inline: auto;
-
-      }
-
-
-      .profile-orbit {
-        display: none;
-      }
-
-
-      .profile-card {
-
-        width: 100%;
-
-        transform: rotate(0);
-
-      }
-
-
-      .hero-float {
-
-        left: 8px;
-        top: 20px;
-
-      }
-
-
-      .stats {
-
-        grid-template-columns:
-          repeat(2, 1fr);
-
-      }
-
-
-      .stat:nth-child(2)::after {
-        display: none;
-      }
-
-
-      .stat:nth-child(-n+2) {
-
-        border-bottom:
-          1px solid var(--border);
-
-      }
-
-
-      .about-grid {
-
-        grid-template-columns: 1fr;
-
-        gap: 30px;
-
-      }
-
-
-      .highlight-grid {
-        grid-template-columns: 1fr;
-      }
-
-
-      .expertise-grid {
-        grid-template-columns: 1fr;
-      }
-
-
-      .projects-grid {
-        grid-template-columns: 1fr;
-      }
-
-
-      .education-grid {
-        grid-template-columns: 1fr;
-      }
-
-
-      .contact-card {
-        padding: 38px 23px;
-      }
-
-
-      .footer-inner {
-
-        flex-direction: column;
-
-        align-items: flex-start;
-
-      }
-
-    }
-
-
-    /* =========================================================
-       SMALL MOBILE
-    ========================================================= */
-
-    @media (max-width: 480px) {
-
-      .hero-title {
-
-        font-size: 47px;
-
-        line-height: 1;
-
-        letter-spacing: -3px;
-
-      }
-
-
-      .hero-actions {
-
-        display: grid;
-
-        grid-template-columns: 1fr;
-
-      }
-
-
-      .btn {
-        width: 100%;
-      }
-
-
-      .section-title {
-
-        font-size: 34px;
-
-        letter-spacing: -1.5px;
-
-      }
-
-
-      .section-description {
-        font-size: 14.5px;
-      }
-
-
-      .stat {
-        padding: 22px 12px;
-      }
-
-
-      .stat strong {
-        font-size: 23px;
-      }
-
-
-      .experience-header {
-
-        flex-direction: column;
-
-        gap: 9px;
-
-      }
-
-
-      .experience-date {
-        width: fit-content;
-      }
-
-
-      .experience-card {
-        padding: 20px;
-      }
-
-
-      .project-card {
-        padding: 23px;
-      }
-
-
-      .floating-whatsapp {
-
-        right: 15px;
-        bottom: 15px;
-
-        padding: 11px 14px;
-
-      }
-
-    }
-
-
-    /* =========================================================
-       REDUCED MOTION
-    ========================================================= */
-
-    @media (
-      prefers-reduced-motion: reduce
-    ) {
-
-      *,
-      *::before,
-      *::after {
-
-        animation-duration:
-          .01ms !important;
-
-        transition-duration:
-          .01ms !important;
-
-      }
-
-      html {
-        scroll-behavior: auto;
-      }
-
-    }
-
-  </style>
+</style>
 
 </head>
+
 
 
 <body>
 
 
-  <!-- =======================================================
-       NAVBAR
-  ======================================================== -->
+<!-- =======================================================
+     NAV
+======================================================== -->
 
-  <header
-    class="navbar"
-    id="navbar"
-  >
+<header
+  class="navbar"
+  id="navbar"
+>
 
-    <div class="container nav-inner">
+<div class="container nav-inner">
 
+<a
+  href="#home"
+  class="brand"
+>
 
-      <a
-        href="#home"
-        class="brand"
-      >
+<span class="brand-mark">
+DN
+</span>
 
-        <span class="brand-mark">
-          DN
-        </span>
+<span class="brand-name">
+Deepak Nama
+</span>
 
-        <span class="brand-text">
-          Deepak Nama
-        </span>
+</a>
 
-      </a>
 
+<nav
+  class="nav-links"
+  id="navLinks"
+>
 
-      <nav
-        class="nav-links"
-        id="navLinks"
-      >
+<a href="#about">
+About
+</a>
 
-        <a href="#about">
-          About
-        </a>
+<a href="#expertise">
+Expertise
+</a>
 
-        <a href="#expertise">
-          Expertise
-        </a>
+<a href="#experience">
+Experience
+</a>
 
-        <a href="#experience">
-          Experience
-        </a>
+<a href="#projects">
+Projects
+</a>
 
-        <a href="#projects">
-          Projects
-        </a>
+<a href="#platforms">
+Platforms
+</a>
 
-        <a href="#tools">
-          Tools
-        </a>
+<a
+  href="#contact"
+  class="nav-contact"
+>
+Contact
+</a>
 
-        <a
-          href="#contact"
-          class="nav-contact"
-        >
-          Contact
-        </a>
+</nav>
 
-      </nav>
 
+<button
+  class="menu-btn"
+  id="menuBtn"
+  aria-label="Open menu"
+  aria-expanded="false"
+>
+☰
+</button>
 
-      <button
-        class="menu-btn"
-        id="menuBtn"
-        aria-label="Open menu"
-        aria-expanded="false"
-      >
-        ☰
-      </button>
+</div>
 
+</header>
 
-    </div>
 
-  </header>
 
+<main>
 
 
-  <main>
+<!-- =======================================================
+     HERO
+======================================================== -->
 
+<section
+  class="hero"
+  id="home"
+>
 
-    <!-- =====================================================
-         HERO
-    ====================================================== -->
+<div class="container hero-grid">
 
-    <section
-      class="hero"
-      id="home"
-    >
 
-      <div class="container hero-grid">
+<div class="reveal">
 
+<div class="availability">
 
-        <div class="reveal">
+<span class="availability-dot"></span>
 
+Open to Relevant Opportunities
 
-          <div class="availability">
+</div>
 
-            <span class="availability-dot"></span>
 
-            Open to Relevant Opportunities
+<h1 class="hero-title">
 
-          </div>
+Deepak Kumar<br>
 
+<span>Nama.</span>
 
-          <h1 class="hero-title">
+</h1>
 
-            Deepak Kumar<br>
 
-            <span>Nama.</span>
+<p class="hero-role">
 
-          </h1>
+E-Commerce Manager · Marketplace Operations · Process Automation
 
+</p>
 
-          <p class="hero-role">
 
-            E-Commerce Manager · Marketplace Operations · Process Automation
+<p class="hero-description">
 
-          </p>
+E-Commerce Manager with
+<strong>7+ years of hands-on experience in fashion and lifestyle e-commerce</strong>,
+backed by
+<strong>11+ years of overall operations experience</strong>.
 
+Experienced across end-to-end marketplace management,
+catalog and SKU operations,
+inventory planning,
+order processing,
+pricing and promotions,
+returns,
+claims,
+customer experience
+and MIS reporting.
 
-          <p class="hero-description">
+I also build practical automation tools using
+Excel,
+Google Sheets,
+Apps Script,
+VBA and Python
+to reduce repetitive work
+and improve operational control.
 
-            E-Commerce Manager with
-            <strong>7+ years of hands-on experience
-            in fashion and lifestyle e-commerce</strong>,
-            backed by
-            <strong>11+ years of overall operations experience</strong>.
+</p>
 
-            Experienced across end-to-end marketplace
-            management, catalog and SKU operations,
-            inventory planning, order processing,
-            promotions, returns, claims,
-            customer experience and MIS reporting.
 
-            I also build practical automation tools
-            using Excel, Google Sheets,
-            Apps Script, VBA and Python
-            to reduce repetitive work
-            and improve operational control.
+<div class="hero-actions">
 
-          </p>
+<a
+  href="#experience"
+  class="btn btn-primary"
+>
+View Experience →
+</a>
 
+<a
+  href="Deepak-Kumar-Nama-CV.pdf"
+  target="_blank"
+  class="btn btn-secondary"
+>
+View CV
+</a>
 
-          <div class="hero-actions">
+<a
+  href="Deepak-Kumar-Nama-CV.pdf"
+  download
+  class="btn btn-secondary"
+>
+↓ Download CV
+</a>
 
+</div>
 
-            <a
-              href="#experience"
-              class="btn btn-primary"
-            >
-              View Experience
-              <span>→</span>
-            </a>
+</div>
 
 
-            <a
-              href="Deepak-Kumar-Nama-CV.pdf"
-              class="btn btn-secondary"
-              target="_blank"
-            >
-              View CV
-            </a>
 
+<div class="profile-area reveal">
 
-            <a
-              href="Deepak-Kumar-Nama-CV.pdf"
-              class="btn btn-secondary"
-              download
-            >
-              ↓ Download CV
-            </a>
 
+<div class="experience-badge">
 
-          </div>
+<strong>7+</strong>
 
+Years in E-Commerce
 
-        </div>
+</div>
 
 
+<div class="profile-card">
 
-        <div class="profile-area reveal">
+<div class="profile-image-wrap">
 
+<img
+  src="deepak-profile.png"
+  alt="Deepak Kumar Nama"
+  class="profile-image"
+>
 
-          <div class="profile-orbit"></div>
+<div class="profile-info">
 
+<strong>
+Deepak Kumar Nama
+</strong>
 
-          <div class="hero-float">
+<span>
+Jaipur, Rajasthan · India
+</span>
 
-            <strong>7+</strong>
+</div>
 
-            Years in E-Commerce
+</div>
 
-          </div>
+</div>
 
+</div>
 
-          <div class="profile-card">
 
+</div>
 
-            <div class="profile-image-wrap">
+</section>
 
 
-              <img
-                src="deepak-profile.png"
-                alt="Deepak Kumar Nama"
-                class="profile-image"
-              >
 
+<!-- =======================================================
+     STATS
+======================================================== -->
 
-              <div class="profile-info">
+<div class="container stats-wrapper reveal">
 
-                <strong>
-                  Deepak Kumar Nama
-                </strong>
+<div class="stats">
 
-                <span>
-                  Jaipur, Rajasthan · India
-                </span>
+<div class="stat">
 
-              </div>
+<strong>7+</strong>
 
+<span>
+Years Hands-on<br>
+E-Commerce Experience
+</span>
 
-            </div>
+</div>
 
 
-          </div>
+<div class="stat">
 
+<strong>11+</strong>
 
-        </div>
+<span>
+Years Overall<br>
+Operations Experience
+</span>
 
+</div>
 
-      </div>
 
-    </section>
+<div class="stat">
 
+<strong>10+</strong>
 
+<span>
+Marketplaces &<br>
+Commerce Platforms
+</span>
 
-    <!-- =====================================================
-         STATS
-    ====================================================== -->
+</div>
 
-    <div class="container stats-wrapper reveal">
 
+<div class="stat">
 
-      <div class="stats">
+<strong>360°</strong>
 
+<span>
+End-to-End<br>
+E-Commerce Operations
+</span>
 
-        <div class="stat">
+</div>
 
-          <strong>
-            7+
-          </strong>
+</div>
 
-          <span>
-            Years Hands-on<br>
-            E-Commerce Experience
-          </span>
+</div>
 
-        </div>
 
 
-        <div class="stat">
+<!-- =======================================================
+     ABOUT
+======================================================== -->
 
-          <strong>
-            11+
-          </strong>
+<section
+  class="section"
+  id="about"
+>
 
-          <span>
-            Years Overall<br>
-            Operations Experience
-          </span>
+<div class="container about-grid">
 
-        </div>
 
+<div class="reveal">
 
-        <div class="stat">
+<div class="eyebrow">
+Professional Profile
+</div>
 
-          <strong>
-            10+
-          </strong>
+<h2 class="section-title">
 
-          <span>
-            Marketplaces &<br>
-            Commerce Platforms
-          </span>
+Operations first.<br>
+Technology where it helps.
 
-        </div>
+</h2>
 
+</div>
 
-        <div class="stat">
 
-          <strong>
-            360°
-          </strong>
 
-          <span>
-            End-to-End<br>
-            E-Commerce Operations
-          </span>
+<div class="about-copy reveal">
 
-        </div>
 
+<p>
 
-      </div>
+I am an
+<strong>e-commerce and operations professional</strong>
+with experience managing the everyday moving parts
+behind online retail.
 
+My work covers product catalogs,
+SKU management,
+inventory planning,
+order processing,
+dispatch,
+pricing and promotions,
+returns,
+refunds,
+marketplace claims,
+customer escalations
+and management reporting.
 
-    </div>
+</p>
 
 
+<p>
 
-    <!-- =====================================================
-         ABOUT
-    ====================================================== -->
+I have worked across
+<strong>
+Amazon,
+Flipkart,
+Myntra,
+Ajio,
+Meesho,
+Etsy,
+Nykaa,
+TataCliq,
+eBay
+and Shopify
+</strong>,
+giving me practical exposure to different marketplace workflows,
+seller panels
+and operating models.
 
-    <section
-      class="section"
-      id="about"
-    >
+</p>
 
-      <div class="container about-grid">
 
+<p>
 
-        <div class="reveal">
+A major part of my approach is
+<strong>process improvement</strong>.
 
+Where repetitive manual work causes delays or errors,
+I look for practical ways to simplify it using
+Excel,
+Google Sheets,
+Apps Script,
+VBA,
+Python
+and lightweight custom tools.
 
-          <div class="eyebrow">
-            Professional Profile
-          </div>
+</p>
 
 
-          <h2 class="section-title">
+<div class="highlight-grid">
 
-            Operations first.
-            Technology where it helps.
+<div class="highlight">
+Marketplace Management
+</div>
 
-          </h2>
+<div class="highlight">
+Catalog & SKU Operations
+</div>
 
+<div class="highlight">
+Inventory Planning
+</div>
 
-        </div>
+<div class="highlight">
+Order & Dispatch Operations
+</div>
 
+<div class="highlight">
+MIS & Dashboards
+</div>
 
+<div class="highlight">
+Process Automation
+</div>
 
-        <div class="about-text reveal">
+</div>
 
+</div>
 
-          <p>
+</div>
 
-            I am an
-            <strong>e-commerce and operations professional</strong>
-            with experience managing the everyday moving
-            parts behind online retail.
+</section>
 
-            My work covers product catalogs,
-            SKU management, inventory planning,
-            order processing, dispatch,
-            pricing and promotions,
-            returns, refunds, marketplace claims,
-            customer escalations and management reporting.
 
-          </p>
 
+<!-- =======================================================
+     EXPERTISE
+======================================================== -->
 
-          <p>
+<section
+  class="section section-soft"
+  id="expertise"
+>
 
-            I have worked across
-            <strong>
-              Amazon, Flipkart, Myntra, Ajio,
-              Meesho, Etsy, Nykaa,
-              TataCliq, eBay and Shopify
-            </strong>,
-            giving me practical exposure to
-            multiple marketplace workflows,
-            seller panels and operating models.
+<div class="container">
 
-          </p>
 
+<div class="section-header reveal">
 
-          <p>
+<div class="eyebrow">
+Core Competencies
+</div>
 
-            A major part of my approach is
-            <strong>process improvement</strong>.
+<h2 class="section-title">
 
-            Wherever repetitive manual work creates
-            delays or errors, I look for practical ways
-            to simplify it through
-            Excel, Google Sheets,
-            Apps Script, VBA,
-            Python and lightweight custom tools.
+End-to-end e-commerce operations.
 
-          </p>
+</h2>
 
+<p class="section-description">
 
-          <div class="highlight-grid">
+Practical experience across marketplace management,
+retail operations,
+reporting
+and process improvement.
 
+</p>
 
-            <div class="highlight-item">
-              Marketplace Management
-            </div>
+</div>
 
 
-            <div class="highlight-item">
-              Catalog & SKU Operations
-            </div>
 
+<div class="expertise-grid">
 
-            <div class="highlight-item">
-              Inventory Planning
-            </div>
 
+<article class="expertise-card reveal">
 
-            <div class="highlight-item">
-              Order & Dispatch Operations
-            </div>
+<div class="expertise-icon">
+MKT
+</div>
 
+<h3>
+Marketplace Management
+</h3>
 
-            <div class="highlight-item">
-              MIS & Dashboards
-            </div>
+<p>
+Seller-panel operations,
+account activities,
+listings,
+orders,
+promotions
+and marketplace coordination.
+</p>
 
+</article>
 
-            <div class="highlight-item">
-              Process Automation
-            </div>
 
 
-          </div>
+<article class="expertise-card reveal">
 
+<div class="expertise-icon">
+SKU
+</div>
 
-        </div>
+<h3>
+Catalog & SKU Management
+</h3>
 
+<p>
+Product listings,
+SKU creation,
+catalog updates,
+attributes
+and product-data management.
+</p>
 
-      </div>
+</article>
 
-    </section>
 
 
+<article class="expertise-card reveal">
 
-    <!-- =====================================================
-         EXPERTISE
-    ====================================================== -->
+<div class="expertise-icon">
+INV
+</div>
 
-    <section
-      class="section section-soft"
-      id="expertise"
-    >
+<h3>
+Inventory Planning
+</h3>
 
-      <div class="container">
+<p>
+Stock monitoring,
+inventory control,
+warehouse coordination
+and future-stock planning.
+</p>
 
+</article>
 
-        <div class="section-header reveal">
 
 
-          <div class="eyebrow">
-            Core Competencies
-          </div>
+<article class="expertise-card reveal">
 
+<div class="expertise-icon">
+OPS
+</div>
 
-          <h2 class="section-title">
+<h3>
+Order & Dispatch
+</h3>
 
-            End-to-end e-commerce operations.
+<p>
+Order processing,
+dispatch support,
+shipment monitoring
+and logistics coordination.
+</p>
 
-          </h2>
+</article>
 
 
-          <p class="section-description">
 
-            Practical experience across
-            marketplace management,
-            retail operations,
-            reporting and process improvement.
+<article class="expertise-card reveal">
 
-          </p>
+<div class="expertise-icon">
+₹
+</div>
 
+<h3>
+Pricing & Promotions
+</h3>
 
-        </div>
+<p>
+Pricing updates,
+promotional activity,
+deals,
+campaigns
+and marketplace participation.
+</p>
 
+</article>
 
 
-        <div class="expertise-grid">
 
+<article class="expertise-card reveal">
 
-          <article class="expertise-card reveal">
+<div class="expertise-icon">
+RTO
+</div>
 
-            <div class="expertise-icon">
-              M
-            </div>
+<h3>
+Returns, Refunds & Claims
+</h3>
 
-            <h3>
-              Marketplace Management
-            </h3>
+<p>
+Returns handling,
+refunds,
+claims,
+customer issues
+and escalations.
+</p>
 
-            <p>
+</article>
 
-              Day-to-day seller panel operations,
-              account activities,
-              listings, orders,
-              promotions and marketplace coordination.
 
-            </p>
 
-          </article>
+<article class="expertise-card reveal">
 
+<div class="expertise-icon">
+MIS
+</div>
 
+<h3>
+MIS & Dashboards
+</h3>
 
-          <article class="expertise-card reveal">
+<p>
+Operational reports,
+management dashboards,
+shipment tracking
+and performance monitoring.
+</p>
 
-            <div class="expertise-icon">
-              SKU
-            </div>
+</article>
 
-            <h3>
-              Catalog & SKU Management
-            </h3>
 
-            <p>
 
-              Product listings,
-              SKU creation,
-              catalog updates,
-              attributes and
-              product data management.
+<article class="expertise-card reveal">
 
-            </p>
+<div class="expertise-icon">
+AUTO
+</div>
 
-          </article>
+<h3>
+Process Automation
+</h3>
 
+<p>
+Excel,
+Google Sheets,
+Apps Script,
+VBA
+and Python-based workflow automation.
+</p>
 
+</article>
 
-          <article class="expertise-card reveal">
 
-            <div class="expertise-icon">
-              INV
-            </div>
+</div>
 
-            <h3>
-              Inventory Planning
-            </h3>
+</div>
 
-            <p>
+</section>
 
-              Stock monitoring,
-              inventory control,
-              warehouse coordination
-              and future stock planning.
 
-            </p>
 
-          </article>
+<!-- =======================================================
+     EXPERIENCE
+======================================================== -->
 
+<section
+  class="section"
+  id="experience"
+>
 
+<div class="container">
 
-          <article class="expertise-card reveal">
 
-            <div class="expertise-icon">
-              →
-            </div>
+<div class="section-header reveal">
 
-            <h3>
-              Order & Dispatch Operations
-            </h3>
+<div class="eyebrow">
+Professional Experience
+</div>
 
-            <p>
+<h2 class="section-title">
 
-              Order processing,
-              dispatch support,
-              shipment monitoring
-              and logistics coordination.
+Experience built
+from doing the work.
 
-            </p>
+</h2>
 
-          </article>
+<p class="section-description">
 
+Hands-on roles spanning marketplace management,
+e-commerce operations,
+reporting
+and business support.
 
+</p>
 
-          <article class="expertise-card reveal">
+</div>
 
-            <div class="expertise-icon">
-              ₹
-            </div>
 
-            <h3>
-              Pricing & Promotions
-            </h3>
 
-            <p>
+<div class="timeline">
 
-              Pricing updates,
-              promotional activity,
-              deals,
-              campaigns and marketplace participation.
 
-            </p>
+<article class="exp-item reveal">
 
-          </article>
+<div class="timeline-point"></div>
 
+<div class="exp-card">
 
+<div class="exp-header">
 
-          <article class="expertise-card reveal">
+<div>
 
-            <div class="expertise-icon">
-              ↩
-            </div>
+<h3>
+E-Commerce Manager
+</h3>
 
-            <h3>
-              Returns, Refunds & Claims
-            </h3>
+<div class="company">
+Shopolics · Jaipur
+</div>
 
-            <p>
+</div>
 
-              Returns handling,
-              refunds,
-              claim settlements,
-              customer issues and escalations.
+<div class="exp-date">
+Nov 2024 — Aug 2026
+</div>
 
-            </p>
+</div>
 
-          </article>
+<ul class="exp-list">
 
+<li>
+Led day-to-day e-commerce operations across multiple marketplaces.
+</li>
 
+<li>
+Managed catalog,
+listings,
+order processing,
+inventory control
+and account-health activities.
+</li>
 
-          <article class="expertise-card reveal">
+<li>
+Handled SKU creation,
+stock planning,
+warehouse coordination,
+pricing
+and promotions.
+</li>
 
-            <div class="expertise-icon">
-              MIS
-            </div>
+<li>
+Managed returns,
+refunds,
+marketplace claims
+and customer escalations.
+</li>
 
-            <h3>
-              MIS & Dashboards
-            </h3>
+<li>
+Prepared MIS reports
+and operational dashboards.
+</li>
 
-            <p>
+<li>
+Built Google Sheets tools for inventory,
+shipment monitoring,
+SKU handling
+and workflow automation.
+</li>
 
-              Operational reports,
-              management dashboards,
-              shipment tracking
-              and performance monitoring.
+</ul>
 
-            </p>
+</div>
 
-          </article>
+</article>
 
 
 
-          <article class="expertise-card reveal">
+<article class="exp-item reveal">
 
-            <div class="expertise-icon">
-              ⚙
-            </div>
+<div class="timeline-point"></div>
 
-            <h3>
-              Process Automation
-            </h3>
+<div class="exp-card">
 
-            <p>
+<div class="exp-header">
 
-              Excel,
-              Google Sheets,
-              Apps Script,
-              VBA and Python-based
-              workflow automation.
+<div>
 
-            </p>
+<h3>
+E-Commerce Manager
+</h3>
 
-          </article>
+<div class="company">
+Global Art Exports · Jaipur
+</div>
 
+</div>
 
-        </div>
+<div class="exp-date">
+May 2023 — Nov 2024
+</div>
 
+</div>
 
-      </div>
+<ul class="exp-list">
 
-    </section>
+<li>
+Managed daily marketplace operations.
+</li>
 
+<li>
+Handled new-product listings
+and catalog updates.
+</li>
 
+<li>
+Managed promotions,
+advertisements,
+deals
+and campaign participation.
+</li>
 
-    <!-- =====================================================
-         EXPERIENCE
-    ====================================================== -->
+<li>
+Tracked non-return shipments.
+</li>
 
-    <section
-      class="section"
-      id="experience"
-    >
+<li>
+Handled customer complaints
+and claim settlements.
+</li>
 
-      <div class="container">
+<li>
+Researched market trends
+and reported performance to management.
+</li>
 
+</ul>
 
-        <div class="section-header reveal">
+</div>
 
+</article>
 
-          <div class="eyebrow">
-            Professional Experience
-          </div>
 
 
-          <h2 class="section-title">
+<article class="exp-item reveal">
 
-            Experience built
-            from doing the work.
+<div class="timeline-point"></div>
 
-          </h2>
+<div class="exp-card">
 
+<div class="exp-header">
 
-          <p class="section-description">
+<div>
 
-            Hands-on roles spanning
-            marketplace management,
-            e-commerce operations,
-            reporting and business support.
+<h3>
+E-Commerce Manager
+</h3>
 
-          </p>
+<div class="company">
+Unique Fashion · Sitapura, Jaipur
+</div>
 
+</div>
 
-        </div>
+<div class="exp-date">
+May 2022 — Apr 2023
+</div>
 
+</div>
 
+<ul class="exp-list">
 
-        <div class="timeline">
+<li>
+Managed product listings
+and marketplace orders.
+</li>
 
+<li>
+Handled customer coordination.
+</li>
 
-          <!-- SHOPOLICS -->
+<li>
+Managed inventory tracking
+and dispatch support.
+</li>
 
-          <article class="experience-item reveal">
+<li>
+Prepared operational MIS reports.
+</li>
 
+</ul>
 
-            <div class="timeline-point"></div>
+</div>
 
+</article>
 
-            <div class="experience-card">
 
 
-              <div class="experience-header">
+<article class="exp-item reveal">
 
+<div class="timeline-point"></div>
 
-                <div>
+<div class="exp-card">
 
-                  <h3>
-                    E-Commerce Manager
-                  </h3>
+<div class="exp-header">
 
-                  <div class="company">
-                    Shopolics · Jaipur
-                  </div>
+<div>
 
-                </div>
+<h3>
+E-Commerce Executive
+</h3>
 
+<div class="company">
+Aman Export International · Sitapura, Jaipur
+</div>
 
-                <div class="experience-date">
-                  Nov 2024 — Aug 2026
-                </div>
+</div>
 
+<div class="exp-date">
+Sep 2021 — Mar 2022
+</div>
 
-              </div>
+</div>
 
+<ul class="exp-list">
 
-              <ul class="experience-list">
+<li>
+Handled marketplace listings.
+</li>
 
-                <li>
-                  Led day-to-day e-commerce operations
-                  across multiple marketplaces.
-                </li>
+<li>
+Managed order processing
+and customer coordination.
+</li>
 
-                <li>
-                  Managed catalog management,
-                  listings, order processing,
-                  inventory control and
-                  account health activities.
-                </li>
+<li>
+Supported inventory tracking
+and dispatch operations.
+</li>
 
-                <li>
-                  Handled SKU creation,
-                  stock planning,
-                  warehouse coordination,
-                  pricing and promotions.
-                </li>
+<li>
+Assisted everyday marketplace operations.
+</li>
 
-                <li>
-                  Managed returns,
-                  refunds,
-                  marketplace claims
-                  and customer escalations.
-                </li>
+</ul>
 
-                <li>
-                  Prepared MIS reports
-                  and operational dashboards
-                  for management review.
-                </li>
+</div>
 
-                <li>
-                  Built Google Sheets-based tools
-                  for inventory tracking,
-                  shipment monitoring,
-                  SKU handling
-                  and routine workflow automation.
-                </li>
+</article>
 
-              </ul>
 
 
-            </div>
+<article class="exp-item reveal">
 
+<div class="timeline-point"></div>
 
-          </article>
+<div class="exp-card">
 
+<div class="exp-header">
 
+<div>
 
-          <!-- GLOBAL ART -->
+<h3>
+E-Commerce Executive
+</h3>
 
-          <article class="experience-item reveal">
+<div class="company">
+Fabista International · Sanganer, Jaipur
+</div>
 
+</div>
 
-            <div class="timeline-point"></div>
+<div class="exp-date">
+Aug 2020 — Aug 2021
+</div>
 
+</div>
 
-            <div class="experience-card">
+<ul class="exp-list">
 
+<li>
+Supported product listings
+and order processing.
+</li>
 
-              <div class="experience-header">
+<li>
+Coordinated inventory
+and dispatch operations.
+</li>
 
+<li>
+Prepared daily marketplace reports.
+</li>
 
-                <div>
+</ul>
 
-                  <h3>
-                    E-Commerce Manager
-                  </h3>
+</div>
 
-                  <div class="company">
-                    Global Art Exports · Jaipur
-                  </div>
+</article>
 
-                </div>
 
 
-                <div class="experience-date">
-                  May 2023 — Nov 2024
-                </div>
+<article class="exp-item reveal">
 
+<div class="timeline-point"></div>
 
-              </div>
+<div class="exp-card">
 
+<div class="exp-header">
 
-              <ul class="experience-list">
+<div>
 
-                <li>
-                  Managed daily marketplace operations.
-                </li>
+<h3>
+E-Commerce Executive
+</h3>
 
-                <li>
-                  Handled new product listings
-                  and catalog updates.
-                </li>
+<div class="company">
+Vishal Fashion · Sanganer, Jaipur
+</div>
 
-                <li>
-                  Managed promotions,
-                  advertisements,
-                  deals and campaign participation.
-                </li>
+</div>
 
-                <li>
-                  Tracked non-return shipments.
-                </li>
+<div class="exp-date">
+Jan 2019 — Aug 2020
+</div>
 
-                <li>
-                  Handled customer complaints
-                  and marketplace claim settlements.
-                </li>
+</div>
 
-                <li>
-                  Researched market trends
-                  and reported performance
-                  to management.
-                </li>
+<ul class="exp-list">
 
-              </ul>
+<li>
+Managed product listings
+and marketplace orders.
+</li>
 
+<li>
+Coordinated with customers.
+</li>
 
-            </div>
+<li>
+Managed inventory tracking
+and dispatch support.
+</li>
 
+<li>
+Handled routine MIS activities.
+</li>
 
-          </article>
+</ul>
 
+</div>
 
+</article>
 
-          <!-- UNIQUE FASHION -->
 
-          <article class="experience-item reveal">
 
+<article class="exp-item reveal">
 
-            <div class="timeline-point"></div>
+<div class="timeline-point"></div>
 
+<div class="exp-card">
 
-            <div class="experience-card">
+<div class="exp-header">
 
+<div>
 
-              <div class="experience-header">
+<h3>
+Operation Executive
+</h3>
 
+<div class="company">
+Geet Enterprises · C&F of Abbott India Ltd. · Jaipur
+</div>
 
-                <div>
+</div>
 
-                  <h3>
-                    E-Commerce Manager
-                  </h3>
+<div class="exp-date">
+Sep 2015 — Nov 2018
+</div>
 
-                  <div class="company">
-                    Unique Fashion · Sitapura, Jaipur
-                  </div>
+</div>
 
-                </div>
+<ul class="exp-list">
 
+<li>
+Handled expense
+and breakage claims.
+</li>
 
-                <div class="experience-date">
-                  May 2022 — Apr 2023
-                </div>
+<li>
+Managed goods returns
+and customer issues.
+</li>
 
+<li>
+Handled credit
+and debit notes.
+</li>
 
-              </div>
+<li>
+Prepared management reporting.
+</li>
 
+</ul>
 
-              <ul class="experience-list">
+</div>
 
-                <li>
-                  Managed product listings
-                  and marketplace orders.
-                </li>
+</article>
 
-                <li>
-                  Handled customer coordination.
-                </li>
 
-                <li>
-                  Managed inventory tracking
-                  and dispatch support.
-                </li>
 
-                <li>
-                  Prepared operational MIS reporting.
-                </li>
+<article class="exp-item reveal">
 
-              </ul>
+<div class="timeline-point"></div>
 
+<div class="exp-card">
 
-            </div>
+<div class="exp-header">
 
+<div>
 
-          </article>
+<h3>
+Computer Operator
+</h3>
 
+<div class="company">
+Vertex Customer Solutions Pvt. Ltd. · Jaipur
+</div>
 
+</div>
 
-          <!-- AMAN EXPORT -->
+<div class="exp-date">
+Feb 2014 — Oct 2015
+</div>
 
-          <article class="experience-item reveal">
+</div>
 
+<ul class="exp-list">
 
-            <div class="timeline-point"></div>
+<li>
+Handled data entry
+and system-level operational support.
+</li>
 
+</ul>
 
-            <div class="experience-card">
+</div>
 
+</article>
 
-              <div class="experience-header">
 
+</div>
 
-                <div>
+</div>
 
-                  <h3>
-                    E-Commerce Executive
-                  </h3>
+</section>
 
-                  <div class="company">
-                    Aman Export International · Sitapura, Jaipur
-                  </div>
 
-                </div>
 
+<!-- =======================================================
+     PROJECTS
+======================================================== -->
 
-                <div class="experience-date">
-                  Sep 2021 — Mar 2022
-                </div>
+<section
+  class="section section-soft"
+  id="projects"
+>
 
+<div class="container">
 
-              </div>
 
+<div class="section-header reveal">
 
-              <ul class="experience-list">
+<div class="eyebrow">
+Automation & Process Improvement
+</div>
 
-                <li>
-                  Handled marketplace listings.
-                </li>
+<h2 class="section-title">
 
-                <li>
-                  Managed order processing
-                  and customer coordination.
-                </li>
+Tools built around
+real operational problems.
 
-                <li>
-                  Supported inventory tracking
-                  and dispatch operations.
-                </li>
+</h2>
 
-                <li>
-                  Assisted in everyday
-                  marketplace operations.
-                </li>
+<p class="section-description">
 
-              </ul>
+Practical systems created to reduce manual dependency,
+improve visibility
+and make routine operational work easier.
 
+</p>
 
-            </div>
+</div>
 
 
-          </article>
 
+<div class="projects-grid">
 
 
-          <!-- FABISTA -->
+<!-- INVENTORY -->
 
-          <article class="experience-item reveal">
+<article class="project-card reveal">
 
+<div class="project-top">
 
-            <div class="timeline-point"></div>
+<span class="project-tag">
+Inventory
+</span>
 
+<h3>
+Inventory Management System
+</h3>
 
-            <div class="experience-card">
+<p>
+Barcode-based inventory system with real-time stock visibility,
+transaction history,
+category controls,
+future stock planning
+and SKU-level low-stock WhatsApp alerts.
+</p>
 
+<div class="project-proof">
+Real-time stock visibility
+</div>
 
-              <div class="experience-header">
+</div>
 
 
-                <div>
+<div class="project-graphic">
 
-                  <h3>
-                    E-Commerce Executive
-                  </h3>
+<svg viewBox="0 0 230 190">
 
-                  <div class="company">
-                    Fabista International · Sanganer, Jaipur
-                  </div>
+<rect
+  x="14"
+  y="25"
+  width="202"
+  height="145"
+  rx="22"
+  fill="#f3f6ff"
+/>
 
-                </div>
+<rect
+  x="34"
+  y="52"
+  width="65"
+  height="49"
+  rx="10"
+  fill="#dfe7ff"
+/>
 
+<path
+  d="M34 66L66 49L99 66"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="4"
+/>
 
-                <div class="experience-date">
-                  Aug 2020 — Aug 2021
-                </div>
+<rect
+  x="111"
+  y="52"
+  width="78"
+  height="84"
+  rx="12"
+  fill="#fff"
+/>
 
+<rect
+  x="124"
+  y="67"
+  width="5"
+  height="47"
+  fill="currentColor"
+/>
 
-              </div>
+<rect
+  x="134"
+  y="67"
+  width="2"
+  height="47"
+  fill="currentColor"
+/>
 
+<rect
+  x="141"
+  y="67"
+  width="6"
+  height="47"
+  fill="currentColor"
+/>
 
-              <ul class="experience-list">
+<rect
+  x="152"
+  y="67"
+  width="3"
+  height="47"
+  fill="currentColor"
+/>
 
-                <li>
-                  Supported product listings
-                  and order processing.
-                </li>
+<rect
+  x="161"
+  y="67"
+  width="6"
+  height="47"
+  fill="currentColor"
+/>
 
-                <li>
-                  Coordinated inventory
-                  and dispatch operations.
-                </li>
+<rect
+  x="173"
+  y="67"
+  width="3"
+  height="47"
+  fill="currentColor"
+/>
 
-                <li>
-                  Prepared daily marketplace
-                  operational reports.
-                </li>
+<path
+  d="M43 135L67 120L86 128L103 110"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="4"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+/>
 
-              </ul>
+<circle cx="103" cy="110" r="5" fill="currentColor"/>
 
+</svg>
 
-            </div>
+</div>
 
 
-          </article>
+<div class="project-tech">
+Google Sheets · Barcode Workflows
+</div>
 
+</article>
 
 
-          <!-- VISHAL -->
 
-          <article class="experience-item reveal">
+<!-- LABEL PRINT -->
 
+<article class="project-card reveal">
 
-            <div class="timeline-point"></div>
+<div class="project-top">
 
+<span class="project-tag">
+Warehouse Utility
+</span>
 
-            <div class="experience-card">
+<h3>
+Amazon & AJIO SKU Label Printing Tools
+</h3>
 
+<p>
+Warehouse-friendly utilities that extract and print
+clear large-format SKU information from marketplace orders,
+reducing picking confusion
+and manual dependency.
+</p>
 
-              <div class="experience-header">
+<div class="project-proof">
+Large-format SKU labels
+</div>
 
+</div>
 
-                <div>
 
-                  <h3>
-                    E-Commerce Executive
-                  </h3>
+<div class="project-graphic">
 
-                  <div class="company">
-                    Vishal Fashion · Sanganer, Jaipur
-                  </div>
+<svg viewBox="0 0 230 190">
 
-                </div>
+<rect
+  x="13"
+  y="24"
+  width="204"
+  height="147"
+  rx="23"
+  fill="#f3f6ff"
+/>
 
+<rect
+  x="50"
+  y="54"
+  width="120"
+  height="73"
+  rx="15"
+  fill="currentColor"
+  opacity=".13"
+/>
 
-                <div class="experience-date">
-                  Jan 2019 — Aug 2020
-                </div>
+<rect
+  x="65"
+  y="42"
+  width="90"
+  height="45"
+  rx="7"
+  fill="#fff"
+/>
 
+<rect
+  x="71"
+  y="96"
+  width="108"
+  height="54"
+  rx="7"
+  fill="#fff"
+/>
 
-              </div>
+<rect x="84" y="108" width="4" height="28" fill="currentColor"/>
+<rect x="92" y="108" width="2" height="28" fill="currentColor"/>
+<rect x="99" y="108" width="6" height="28" fill="currentColor"/>
+<rect x="109" y="108" width="3" height="28" fill="currentColor"/>
+<rect x="118" y="108" width="5" height="28" fill="currentColor"/>
+<rect x="128" y="108" width="3" height="28" fill="currentColor"/>
+<rect x="137" y="108" width="6" height="28" fill="currentColor"/>
+<rect x="148" y="108" width="3" height="28" fill="currentColor"/>
 
+<circle cx="159" cy="77" r="5" fill="currentColor"/>
 
-              <ul class="experience-list">
+</svg>
 
-                <li>
-                  Managed product listings
-                  and marketplace orders.
-                </li>
+</div>
 
-                <li>
-                  Coordinated with customers.
-                </li>
 
-                <li>
-                  Managed inventory tracking
-                  and dispatch support.
-                </li>
+<div class="project-tech">
+Python · Google Colab
+</div>
 
-                <li>
-                  Handled routine MIS activities.
-                </li>
+</article>
 
-              </ul>
 
 
-            </div>
+<!-- SHIPMENT -->
 
+<article class="project-card reveal">
 
-          </article>
+<div class="project-top">
 
+<span class="project-tag">
+Logistics
+</span>
 
+<h3>
+Delhivery & Shiprocket Bulk Shipment Tracker
+</h3>
 
-          <!-- GEET -->
+<p>
+Google Sheets-based tracking system capable of monitoring
+thousands of AWBs
+and generating daily WhatsApp alerts for prepaid RTO shipments.
+</p>
 
-          <article class="experience-item reveal">
+<div class="project-proof">
+Thousands of AWBs
+</div>
 
+</div>
 
-            <div class="timeline-point"></div>
 
+<div class="project-graphic">
 
-            <div class="experience-card">
+<svg viewBox="0 0 230 190">
 
+<rect
+  x="13"
+  y="24"
+  width="204"
+  height="147"
+  rx="23"
+  fill="#f3f6ff"
+/>
 
-              <div class="experience-header">
+<path
+  d="M46 130
+     C70 96,
+     87 119,
+     106 82
+     C127 44,
+     146 75,
+     180 52"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="5"
+  stroke-linecap="round"
+/>
 
+<circle cx="46" cy="130" r="8" fill="#fff" stroke="currentColor" stroke-width="4"/>
+<circle cx="106" cy="82" r="8" fill="#fff" stroke="currentColor" stroke-width="4"/>
+<circle cx="180" cy="52" r="8" fill="currentColor"/>
 
-                <div>
+<rect
+  x="135"
+  y="101"
+  width="49"
+  height="39"
+  rx="7"
+  fill="#fff"
+/>
 
-                  <h3>
-                    Operation Executive
-                  </h3>
+<path
+  d="M135 111L159 98L184 111"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="4"
+/>
 
-                  <div class="company">
-                    Geet Enterprises · C&F of Abbott India Ltd. · Sitapura, Jaipur
-                  </div>
+</svg>
 
-                </div>
+</div>
 
 
-                <div class="experience-date">
-                  Sep 2015 — Nov 2018
-                </div>
+<div class="project-tech">
+Google Sheets · Shipment Tracking · WhatsApp Alerts
+</div>
 
+</article>
 
-              </div>
 
 
-              <ul class="experience-list">
+<!-- PDF -->
 
-                <li>
-                  Handled expense
-                  and breakage claims.
-                </li>
+<article class="project-card reveal">
 
-                <li>
-                  Managed goods returns
-                  and customer issues.
-                </li>
+<div class="project-top">
 
-                <li>
-                  Handled credit
-                  and debit notes.
-                </li>
+<span class="project-tag">
+Python Utility
+</span>
 
-                <li>
-                  Prepared management reporting.
-                </li>
+<h3>
+Bulk PDF Image Extraction Tool
+</h3>
 
-              </ul>
+<p>
+Offline utility for extracting images from very large PDF documents,
+including files above 500 MB,
+without relying on paid online tools.
+</p>
 
+<div class="project-proof">
+500 MB+ PDF files
+</div>
 
-            </div>
+</div>
 
 
-          </article>
+<div class="project-graphic">
 
+<svg viewBox="0 0 230 190">
 
+<rect
+  x="13"
+  y="24"
+  width="204"
+  height="147"
+  rx="23"
+  fill="#f3f6ff"
+/>
 
-          <!-- VERTEX -->
+<rect
+  x="37"
+  y="45"
+  width="65"
+  height="86"
+  rx="10"
+  fill="#fff"
+/>
 
-          <article class="experience-item reveal">
+<path
+  d="M81 45L102 67H81Z"
+  fill="currentColor"
+  opacity=".18"
+/>
 
+<text
+  x="50"
+  y="94"
+  font-family="Arial"
+  font-size="18"
+  font-weight="700"
+  fill="currentColor"
+>
+PDF
+</text>
 
-            <div class="timeline-point"></div>
+<path
+  d="M112 89H139"
+  stroke="currentColor"
+  stroke-width="5"
+  stroke-linecap="round"
+/>
 
+<path
+  d="M132 80L143 89L132 98"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="5"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+/>
 
-            <div class="experience-card">
+<rect
+  x="151"
+  y="57"
+  width="46"
+  height="35"
+  rx="7"
+  fill="#fff"
+/>
 
+<rect
+  x="143"
+  y="101"
+  width="54"
+  height="39"
+  rx="7"
+  fill="#fff"
+/>
 
-              <div class="experience-header">
+<circle cx="184" cy="69" r="6" fill="currentColor" opacity=".5"/>
 
+<path
+  d="M150 132L165 117L176 126L185 116L197 129"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="3"
+/>
 
-                <div>
+</svg>
 
-                  <h3>
-                    Computer Operator
-                  </h3>
+</div>
 
-                  <div class="company">
-                    Vertex Customer Solutions Pvt. Ltd. · Sodala, Jaipur
-                  </div>
 
-                </div>
+<div class="project-tech">
+Python · Offline Processing
+</div>
 
+</article>
 
-                <div class="experience-date">
-                  Feb 2014 — Oct 2015
-                </div>
 
 
-              </div>
+<!-- ATTENDANCE -->
 
+<article class="project-card reveal">
 
-              <ul class="experience-list">
+<div class="project-top">
 
-                <li>
-                  Handled data entry
-                  and system-level
-                  operational support.
-                </li>
+<span class="project-tag">
+Workforce
+</span>
 
-              </ul>
+<h3>
+Attendance & Workforce Management System
+</h3>
 
+<p>
+Employee login,
+login/logout time,
+GPS location,
+working hours,
+leave tracking,
+attendance status
+and performance metrics.
+</p>
 
-            </div>
+<div class="project-proof">
+GPS + attendance tracking
+</div>
 
+</div>
 
-          </article>
 
+<div class="project-graphic">
 
-        </div>
+<svg viewBox="0 0 230 190">
 
+<rect
+  x="13"
+  y="24"
+  width="204"
+  height="147"
+  rx="23"
+  fill="#f3f6ff"
+/>
 
-      </div>
+<circle
+  cx="77"
+  cy="75"
+  r="25"
+  fill="#fff"
+/>
 
-    </section>
+<circle
+  cx="77"
+  cy="67"
+  r="10"
+  fill="currentColor"
+  opacity=".28"
+/>
 
+<path
+  d="M57 91
+     C60 78,
+     94 78,
+     97 91"
+  fill="currentColor"
+  opacity=".18"
+/>
 
+<circle
+  cx="150"
+  cy="72"
+  r="27"
+  fill="#fff"
+/>
 
-    <!-- =====================================================
-         AUTOMATION PROJECTS
-    ====================================================== -->
+<path
+  d="M150 58V73L162 80"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="4"
+  stroke-linecap="round"
+/>
 
-    <section
-      class="section section-soft"
-      id="projects"
-    >
+<path
+  d="M97 125
+     C97 108,
+     119 105,
+     119 88
+     C119 105,
+     142 108,
+     142 125"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="4"
+  stroke-linecap="round"
+/>
 
-      <div class="container">
+<path
+  d="M120 135
+     C108 120,
+     106 109,
+     120 100
+     C134 109,
+     132 120,
+     120 135Z"
+  fill="currentColor"
+/>
 
+</svg>
 
-        <div class="section-header reveal">
+</div>
 
 
-          <div class="eyebrow">
-            Automation & Process Improvement
-          </div>
+<div class="project-tech">
+HTML · Google Sheets · GPS Workflow
+</div>
 
+</article>
 
-          <h2 class="section-title">
 
-            Tools built around
-            real operational problems.
 
-          </h2>
+<!-- AUTOMATION -->
 
+<article class="project-card reveal">
 
-          <p class="section-description">
+<div class="project-top">
 
-            Practical systems created
-            to reduce manual dependency,
-            improve visibility
-            and make routine work easier.
+<span class="project-tag">
+Automation
+</span>
 
-          </p>
+<h3>
+Custom Excel & Google Sheets Automation
+</h3>
 
+<p>
+Reusable formulas,
+dashboards
+and logic frameworks for operational reporting,
+calculations,
+data validation
+and repetitive workflow automation.
+</p>
 
-        </div>
+<div class="project-proof">
+Reusable workflow logic
+</div>
 
+</div>
 
 
-        <div class="projects-grid">
+<div class="project-graphic">
 
+<svg viewBox="0 0 230 190">
 
-          <article class="project-card reveal">
+<rect
+  x="13"
+  y="24"
+  width="204"
+  height="147"
+  rx="23"
+  fill="#f3f6ff"
+/>
 
+<rect
+  x="37"
+  y="49"
+  width="105"
+  height="94"
+  rx="11"
+  fill="#fff"
+/>
 
-            <div>
+<path
+  d="M37 75H142
+     M37 100H142
+     M37 125H142
+     M72 49V143
+     M107 49V143"
+  stroke="currentColor"
+  stroke-width="2"
+  opacity=".30"
+/>
 
-              <span class="project-tag">
-                Inventory
-              </span>
+<circle
+  cx="167"
+  cy="104"
+  r="29"
+  fill="#fff"
+/>
 
+<circle
+  cx="167"
+  cy="104"
+  r="12"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="6"
+/>
 
-              <h3>
-                Inventory Management System
-              </h3>
+<path
+  d="M167 68V78
+     M167 130V140
+     M131 104H141
+     M193 104H203
+     M142 79L149 86
+     M185 122L192 129
+     M142 129L149 122
+     M185 86L192 79"
+  stroke="currentColor"
+  stroke-width="5"
+  stroke-linecap="round"
+/>
 
+</svg>
 
-              <p>
+</div>
 
-                Designed a customizable
-                barcode-based inventory system
-                with real-time stock visibility,
-                transaction history,
-                category controls,
-                future stock planning
-                and SKU-level low-stock
-                WhatsApp alerts.
 
-              </p>
+<div class="project-tech">
+Excel · Google Sheets · VBA · Apps Script
+</div>
 
-            </div>
+</article>
 
 
-            <div class="project-tech">
-              Google Sheets · Barcode Workflows
-            </div>
+</div>
 
+</div>
 
-          </article>
+</section>
 
 
 
-          <article class="project-card reveal">
+<!-- =======================================================
+     PLATFORMS
+======================================================== -->
 
+<section
+  class="section"
+  id="platforms"
+>
 
-            <div>
+<div class="container">
 
-              <span class="project-tag">
-                Warehouse Utility
-              </span>
 
+<div class="section-header reveal">
 
-              <h3>
-                Amazon & AJIO SKU Label Printing Tools
-              </h3>
+<div class="eyebrow">
+Platforms & Tools
+</div>
 
+<h2 class="section-title">
 
-              <p>
+Marketplace knowledge
+backed by practical tools.
 
-                Built warehouse-friendly
-                SKU label utilities
-                to extract and print
-                clear large-format SKU information
-                from marketplace orders,
-                reducing picking confusion
-                and manual dependency.
+</h2>
 
-              </p>
+<p class="section-description">
 
-            </div>
+Platforms I have worked with
+and tools used across catalog,
+operations,
+reporting
+and automation.
 
+</p>
 
-            <div class="project-tech">
-              Python · Google Colab
-            </div>
+</div>
 
 
-          </article>
 
+<div class="platform-groups">
 
 
-          <article class="project-card reveal">
+<div class="reveal">
 
+<div class="platform-group-title">
+Marketplaces & Commerce
+</div>
 
-            <div>
 
-              <span class="project-tag">
-                Logistics
-              </span>
+<div class="marketplace-grid">
 
 
-              <h3>
-                Delhivery & Shiprocket Bulk Shipment Tracker
-              </h3>
+<div class="marketplace-card">
 
+<div class="portal-icon">
 
-              <p>
+<img
+  src="https://www.google.com/s2/favicons?domain=amazon.in&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
-                Created a Google Sheets-based
-                tracker capable of monitoring
-                thousands of AWBs
-                and generating daily WhatsApp alerts
-                for prepaid RTO shipments
-                to support faster recovery action.
+<span class="portal-fallback">
+A
+</span>
 
-              </p>
+</div>
 
-            </div>
+<div>
 
+<strong>
+Amazon
+</strong>
 
-            <div class="project-tech">
-              Google Sheets · Shipment Tracking
-            </div>
+<span class="portal-type">
+Marketplace
+</span>
 
+</div>
 
-          </article>
+</div>
 
 
 
-          <article class="project-card reveal">
+<div class="marketplace-card">
 
+<div class="portal-icon">
 
-            <div>
+<img
+  src="https://www.google.com/s2/favicons?domain=flipkart.com&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
-              <span class="project-tag">
-                Python Utility
-              </span>
+<span class="portal-fallback">
+F
+</span>
 
+</div>
 
-              <h3>
-                Bulk PDF Image Extraction Tool
-              </h3>
+<div>
 
+<strong>
+Flipkart
+</strong>
 
-              <p>
+<span class="portal-type">
+Marketplace
+</span>
 
-                Developed an offline utility
-                for extracting images
-                from very large PDF documents,
-                including files above 500 MB,
-                without relying on
-                paid online tools.
+</div>
 
-              </p>
+</div>
 
-            </div>
 
 
-            <div class="project-tech">
-              Python · Offline Processing
-            </div>
+<div class="marketplace-card">
 
+<div class="portal-icon">
 
-          </article>
+<img
+  src="https://www.google.com/s2/favicons?domain=myntra.com&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
+<span class="portal-fallback">
+M
+</span>
 
+</div>
 
-          <article class="project-card reveal">
+<div>
 
+<strong>
+Myntra
+</strong>
 
-            <div>
+<span class="portal-type">
+Fashion Marketplace
+</span>
 
-              <span class="project-tag">
-                Workforce
-              </span>
+</div>
 
+</div>
 
-              <h3>
-                Attendance & Workforce Management System
-              </h3>
 
 
-              <p>
+<div class="marketplace-card">
 
-                Designed a workforce system
-                with employee login,
-                login/logout time,
-                GPS location,
-                working hours,
-                leave tracking,
-                attendance status
-                and performance metrics.
+<div class="portal-icon">
 
-              </p>
+<img
+  src="https://www.google.com/s2/favicons?domain=ajio.com&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
-            </div>
+<span class="portal-fallback">
+A
+</span>
 
+</div>
 
-            <div class="project-tech">
-              HTML · Google Sheets
-            </div>
+<div>
 
+<strong>
+AJIO
+</strong>
 
-          </article>
+<span class="portal-type">
+Fashion Marketplace
+</span>
 
+</div>
 
+</div>
 
-          <article class="project-card reveal">
 
 
-            <div>
+<div class="marketplace-card">
 
-              <span class="project-tag">
-                Automation
-              </span>
+<div class="portal-icon">
 
+<img
+  src="https://www.google.com/s2/favicons?domain=meesho.com&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
-              <h3>
-                Custom Excel & Google Sheets Automation
-              </h3>
+<span class="portal-fallback">
+M
+</span>
 
+</div>
 
-              <p>
+<div>
 
-                Created reusable formulas,
-                dashboards and logic frameworks
-                for operational reporting,
-                calculations,
-                data validation
-                and repetitive workflow automation.
+<strong>
+Meesho
+</strong>
 
-              </p>
+<span class="portal-type">
+Marketplace
+</span>
 
-            </div>
+</div>
 
+</div>
 
-            <div class="project-tech">
-              Excel · Google Sheets · VBA · Apps Script
-            </div>
 
 
-          </article>
+<div class="marketplace-card">
 
+<div class="portal-icon">
 
-        </div>
+<img
+  src="https://www.google.com/s2/favicons?domain=etsy.com&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
+<span class="portal-fallback">
+E
+</span>
 
-      </div>
+</div>
 
-    </section>
+<div>
 
+<strong>
+Etsy
+</strong>
 
+<span class="portal-type">
+Marketplace
+</span>
 
-    <!-- =====================================================
-         TOOLS & PLATFORMS
-    ====================================================== -->
+</div>
 
-    <section
-      class="section"
-      id="tools"
-    >
+</div>
 
-      <div class="container">
 
 
-        <div class="section-header reveal">
+<div class="marketplace-card">
 
+<div class="portal-icon">
 
-          <div class="eyebrow">
-            Platforms & Tools
-          </div>
+<img
+  src="https://www.google.com/s2/favicons?domain=nykaa.com&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
+<span class="portal-fallback">
+N
+</span>
 
-          <h2 class="section-title">
+</div>
 
-            Marketplace knowledge
-            backed by practical tools.
+<div>
 
-          </h2>
+<strong>
+Nykaa
+</strong>
 
+<span class="portal-type">
+Marketplace
+</span>
 
-        </div>
+</div>
 
+</div>
 
 
-        <div class="tool-block reveal">
 
+<div class="marketplace-card">
 
-          <div class="tool-label">
-            Marketplaces & Commerce
-          </div>
+<div class="portal-icon">
 
+<img
+  src="https://www.google.com/s2/favicons?domain=tatacliq.com&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
-          <div class="tool-chips">
+<span class="portal-fallback">
+T
+</span>
 
-            <span class="chip">Amazon</span>
-            <span class="chip">Flipkart</span>
-            <span class="chip">Myntra</span>
-            <span class="chip">Ajio</span>
-            <span class="chip">Meesho</span>
-            <span class="chip">Etsy</span>
-            <span class="chip">Nykaa</span>
-            <span class="chip">TataCliq</span>
-            <span class="chip">eBay</span>
-            <span class="chip">Shopify</span>
+</div>
 
-          </div>
+<div>
 
+<strong>
+TataCliq
+</strong>
 
-        </div>
+<span class="portal-type">
+Marketplace
+</span>
 
+</div>
 
+</div>
 
-        <div class="tool-block reveal">
 
 
-          <div class="tool-label">
-            Operations Systems
-          </div>
+<div class="marketplace-card">
 
+<div class="portal-icon">
 
-          <div class="tool-chips">
+<img
+  src="https://www.google.com/s2/favicons?domain=ebay.com&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
-            <span class="chip">
-              Unicommerce
-            </span>
+<span class="portal-fallback">
+e
+</span>
 
-            <span class="chip">
-              SAP / ERP Workflows
-            </span>
+</div>
 
-          </div>
+<div>
 
+<strong>
+eBay
+</strong>
 
-        </div>
+<span class="portal-type">
+Marketplace
+</span>
 
+</div>
 
+</div>
 
-        <div class="tool-block reveal">
 
 
-          <div class="tool-label">
-            Automation & Reporting
-          </div>
+<div class="marketplace-card">
 
+<div class="portal-icon">
 
-          <div class="tool-chips">
+<img
+  src="https://www.google.com/s2/favicons?domain=shopify.com&sz=64"
+  alt=""
+  onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+>
 
-            <span class="chip">
-              Microsoft Excel
-            </span>
+<span class="portal-fallback">
+S
+</span>
 
-            <span class="chip">
-              Google Sheets
-            </span>
+</div>
 
-            <span class="chip">
-              Google Apps Script
-            </span>
+<div>
 
-            <span class="chip">
-              VBA
-            </span>
+<strong>
+Shopify
+</strong>
 
-            <span class="chip">
-              Python
-            </span>
+<span class="portal-type">
+D2C Commerce
+</span>
 
-            <span class="chip">
-              Google Colab
-            </span>
+</div>
 
-          </div>
+</div>
 
 
-        </div>
+</div>
 
+</div>
 
-      </div>
 
-    </section>
 
+<!-- OPERATIONS -->
 
 
-    <!-- =====================================================
-         EDUCATION
-    ====================================================== -->
+<div class="reveal">
 
-    <section class="section section-soft">
+<div class="platform-group-title">
+Operations Systems
+</div>
 
 
-      <div class="container">
+<div class="tools-grid">
 
 
-        <div class="section-header reveal">
+<div class="tool-card">
 
+<div class="tool-icon text-icon">
+U
+</div>
 
-          <div class="eyebrow">
-            Education
-          </div>
+<div>
 
+<strong>
+Unicommerce
+</strong>
 
-          <h2 class="section-title">
+<small>
+Order & inventory operations
+</small>
 
-            Academic background.
+</div>
 
-          </h2>
+</div>
 
 
-        </div>
 
+<div class="tool-card">
 
+<div class="tool-icon text-icon">
+ERP
+</div>
 
-        <div class="education-grid">
+<div>
 
+<strong>
+SAP / ERP Workflows
+</strong>
 
-          <article class="education-card reveal">
+<small>
+Operational workflow exposure
+</small>
 
+</div>
 
-            <div class="education-year">
-              B.Tech
-            </div>
+</div>
 
 
-            <h3>
-              Computer Science
-            </h3>
+</div>
 
+</div>
 
-            <p>
 
-              CompuCom Institute of Technology
-              and Management, Jaipur
 
-              <br><br>
+<!-- AUTOMATION TOOLS -->
 
-              Discontinued after 2nd semester.
 
-            </p>
+<div class="reveal">
 
+<div class="platform-group-title">
+Automation & Reporting
+</div>
 
-          </article>
 
+<div class="tools-grid">
 
 
-          <article class="education-card reveal">
+<div class="tool-card">
 
+<div class="tool-icon">
 
-            <div class="education-year">
-              2011
-            </div>
+<svg viewBox="0 0 24 24">
 
+<rect
+  x="4"
+  y="3"
+  width="16"
+  height="18"
+  rx="2"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+/>
 
-            <h3>
-              Higher Secondary
-            </h3>
+<path
+  d="M8 3V21
+     M8 8H20
+     M8 13H20"
+  stroke="currentColor"
+  stroke-width="2"
+/>
 
+<path
+  d="M2.5 8L7 16
+     M7 8L2.5 16"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+/>
 
-            <p>
+</svg>
 
-              Govt. Senior Secondary School,
-              Sanganer, Jaipur
+</div>
 
-            </p>
+<div>
 
+<strong>
+Microsoft Excel
+</strong>
 
-          </article>
+<small>
+MIS, formulas, dashboards & VBA
+</small>
 
+</div>
 
+</div>
 
-          <article class="education-card reveal">
 
 
-            <div class="education-year">
-              2009
-            </div>
+<div class="tool-card">
 
+<div class="tool-icon">
 
-            <h3>
-              Secondary Education
-            </h3>
+<svg viewBox="0 0 24 24">
 
+<path
+  d="M6 2H15L20 7V22H6Z"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+/>
 
-            <p>
+<path
+  d="M15 2V7H20
+     M9 11H17
+     M9 15H17
+     M9 19H17"
+  stroke="currentColor"
+  stroke-width="2"
+/>
 
-              Govt. Senior Secondary School,
-              Bagru, Jaipur
+</svg>
 
-            </p>
+</div>
 
+<div>
 
-          </article>
+<strong>
+Google Sheets
+</strong>
 
+<small>
+Tracking, dashboards & workflow systems
+</small>
 
-        </div>
+</div>
 
+</div>
 
-      </div>
 
-    </section>
 
+<div class="tool-card">
 
+<div class="tool-icon">
 
-    <!-- =====================================================
-         CONTACT
-    ====================================================== -->
+<svg viewBox="0 0 24 24">
 
-    <section
-      class="section"
-      id="contact"
-    >
+<path
+  d="M9 8L5 12L9 16
+     M15 8L19 12L15 16
+     M13 5L11 19"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+/>
 
-      <div class="container">
+</svg>
 
+</div>
 
-        <div class="contact-card reveal">
+<div>
 
+<strong>
+Google Apps Script
+</strong>
 
-          <div class="contact-content">
+<small>
+Sheets automation & logic
+</small>
 
+</div>
 
-            <div class="eyebrow">
-              Contact
-            </div>
+</div>
 
 
-            <h2>
 
-              Let's discuss
-              the right opportunity.
+<div class="tool-card">
 
-            </h2>
+<div class="tool-icon text-icon">
+VBA
+</div>
 
+<div>
 
-            <p>
+<strong>
+VBA
+</strong>
 
-              I'm open to relevant roles
-              across e-commerce management,
-              marketplace operations,
-              catalog and inventory management,
-              Shopify,
-              MIS,
-              process automation
-              and digital retail operations.
+<small>
+Excel automation
+</small>
 
-            </p>
+</div>
 
+</div>
 
 
-            <div class="hero-actions">
 
+<div class="tool-card">
 
-              <a
-                href="mailto:deepaknama001@gmail.com"
-                class="btn btn-primary"
-              >
-                Email Me
-              </a>
+<div class="tool-icon text-icon">
+Py
+</div>
 
+<div>
 
-              <a
-                href="https://wa.me/918824136802"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-secondary"
-              >
-                WhatsApp
-              </a>
+<strong>
+Python
+</strong>
 
+<small>
+Offline utilities & data workflows
+</small>
 
-              <a
-                href="tel:+918824136802"
-                class="btn btn-secondary"
-              >
-                Call Me
-              </a>
+</div>
 
+</div>
 
-              <a
-                href="https://www.linkedin.com/in/deepak-nama-0935b7149"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-secondary"
-              >
-                LinkedIn
-              </a>
 
 
-              <a
-                href="Deepak-Kumar-Nama-CV.pdf"
-                download
-                class="btn btn-secondary"
-              >
-                ↓ Download CV
-              </a>
+<div class="tool-card">
 
+<div class="tool-icon">
 
-            </div>
+<svg viewBox="0 0 24 24">
 
+<path
+  d="M7 7
+     C2 7,
+     2 17,
+     7 17
+     C10 17,
+     11 14,
+     12 12
+     C13 10,
+     14 7,
+     17 7
+     C22 7,
+     22 17,
+     17 17
+     C14 17,
+     13 14,
+     12 12"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2.4"
+  stroke-linecap="round"
+/>
 
+</svg>
 
-            <div class="contact-details">
+</div>
 
+<div>
 
-              <span class="contact-detail">
-                Jaipur, Rajasthan
-              </span>
+<strong>
+Google Colab
+</strong>
 
+<small>
+Python-based utility development
+</small>
 
-              <a
-                href="tel:+918824136802"
-                class="contact-detail"
-              >
-                +91 88241 36802
-              </a>
+</div>
 
+</div>
 
-              <a
-                href="mailto:deepaknama001@gmail.com"
-                class="contact-detail"
-              >
-                deepaknama001@gmail.com
-              </a>
 
+</div>
 
-            </div>
+</div>
 
 
-          </div>
+</div>
 
+</div>
 
-        </div>
+</section>
 
 
-      </div>
 
-    </section>
+<!-- =======================================================
+     EDUCATION
+======================================================== -->
 
+<section class="section section-soft">
 
-  </main>
+<div class="container">
 
 
+<div class="section-header reveal">
 
-  <!-- =======================================================
-       FLOATING WHATSAPP
-  ======================================================== -->
+<div class="eyebrow">
+Education
+</div>
 
-  <a
-    href="https://wa.me/918824136802"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="floating-whatsapp"
-    aria-label="Contact Deepak on WhatsApp"
-  >
-    WhatsApp
-  </a>
+<h2 class="section-title">
+Academic background.
+</h2>
 
+</div>
 
 
-  <!-- =======================================================
-       FOOTER
-  ======================================================== -->
 
-  <footer>
+<div class="education-grid">
 
 
-    <div class="container footer-inner">
+<article class="education-card reveal">
 
+<div class="education-year">
+B.Tech
+</div>
 
-      <span>
+<h3>
+Computer Science
+</h3>
 
-        ©
-        <span id="year"></span>
+<p>
 
-        <span class="footer-name">
-          Deepak Kumar Nama
-        </span>
+CompuCom Institute of Technology
+and Management, Jaipur.
 
-      </span>
+<br><br>
 
+Discontinued after 2nd semester.
 
-      <span>
-        E-Commerce · Marketplace Operations · Process Automation
-      </span>
+</p>
 
+</article>
 
-    </div>
 
 
-  </footer>
+<article class="education-card reveal">
 
+<div class="education-year">
+2011
+</div>
 
+<h3>
+Higher Secondary
+</h3>
 
-  <!-- =======================================================
-       JAVASCRIPT
-  ======================================================== -->
+<p>
 
-  <script>
+Govt. Senior Secondary School,
+Sanganer, Jaipur.
 
+</p>
 
-    /* =======================================================
-       NAVBAR
-    ======================================================== */
+</article>
 
-    const navbar =
-      document.getElementById("navbar");
 
 
-    function updateNavbar() {
+<article class="education-card reveal">
 
-      if (window.scrollY > 25) {
+<div class="education-year">
+2009
+</div>
 
-        navbar.classList.add(
-          "scrolled"
-        );
+<h3>
+Secondary Education
+</h3>
 
-      } else {
+<p>
 
-        navbar.classList.remove(
-          "scrolled"
-        );
+Govt. Senior Secondary School,
+Bagru, Jaipur.
 
-      }
+</p>
 
-    }
+</article>
 
 
-    updateNavbar();
+</div>
 
+</div>
 
-    window.addEventListener(
-      "scroll",
-      updateNavbar,
-      { passive: true }
+</section>
+
+
+
+<!-- =======================================================
+     CONTACT
+======================================================== -->
+
+<section
+  class="section"
+  id="contact"
+>
+
+<div class="container">
+
+<div class="contact-card reveal">
+
+<div class="contact-content">
+
+<div class="eyebrow">
+Contact
+</div>
+
+<h2>
+
+Let's discuss
+the right opportunity.
+
+</h2>
+
+<p>
+
+I'm open to relevant opportunities across
+e-commerce management,
+marketplace operations,
+catalog and inventory management,
+Shopify,
+MIS,
+process automation
+and digital retail operations.
+
+</p>
+
+
+<div class="hero-actions">
+
+<a
+  href="mailto:deepaknama001@gmail.com"
+  class="btn btn-primary"
+>
+Email Me
+</a>
+
+<a
+  href="https://wa.me/918824136802"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="btn btn-secondary"
+>
+WhatsApp
+</a>
+
+<a
+  href="tel:+918824136802"
+  class="btn btn-secondary"
+>
+Call Me
+</a>
+
+<a
+  href="https://www.linkedin.com/in/deepak-nama-0935b7149"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="btn btn-secondary"
+>
+LinkedIn
+</a>
+
+<a
+  href="Deepak-Kumar-Nama-CV.pdf"
+  download
+  class="btn btn-secondary"
+>
+↓ Download CV
+</a>
+
+</div>
+
+
+<div class="contact-details">
+
+<span class="contact-detail">
+Jaipur, Rajasthan
+</span>
+
+<a
+  href="tel:+918824136802"
+  class="contact-detail"
+>
++91 88241 36802
+</a>
+
+<a
+  href="mailto:deepaknama001@gmail.com"
+  class="contact-detail"
+>
+deepaknama001@gmail.com
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+</main>
+
+
+
+<a
+  href="https://wa.me/918824136802"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="floating-whatsapp"
+>
+WhatsApp
+</a>
+
+
+
+<footer>
+
+<div class="container footer-inner">
+
+<span>
+
+©
+<span id="year"></span>
+
+<span class="footer-name">
+Deepak Kumar Nama
+</span>
+
+</span>
+
+<span>
+E-Commerce · Marketplace Operations · Process Automation
+</span>
+
+</div>
+
+</footer>
+
+
+
+<script>
+
+/* =========================================================
+   NAVBAR SCROLL
+========================================================= */
+
+const navbar =
+  document.getElementById("navbar");
+
+function updateNavbar() {
+
+  navbar.classList.toggle(
+    "scrolled",
+    window.scrollY > 25
+  );
+
+}
+
+updateNavbar();
+
+window.addEventListener(
+  "scroll",
+  updateNavbar,
+  { passive: true }
+);
+
+
+/* =========================================================
+   MOBILE MENU
+========================================================= */
+
+const menuBtn =
+  document.getElementById("menuBtn");
+
+const navLinks =
+  document.getElementById("navLinks");
+
+menuBtn.addEventListener(
+  "click",
+  () => {
+
+    const open =
+      navLinks.classList.toggle("open");
+
+    document.body.classList.toggle(
+      "menu-open",
+      open
     );
 
+    menuBtn.textContent =
+      open ? "✕" : "☰";
+
+    menuBtn.setAttribute(
+      "aria-expanded",
+      String(open)
+    );
+
+  }
+);
 
 
-    /* =======================================================
-       MOBILE MENU
-    ======================================================== */
+document
+  .querySelectorAll(".nav-links a")
+  .forEach(link => {
 
-    const menuBtn =
-      document.getElementById("menuBtn");
-
-
-    const navLinks =
-      document.getElementById("navLinks");
-
-
-    menuBtn.addEventListener(
+    link.addEventListener(
       "click",
       () => {
 
-        const open =
-          navLinks.classList.toggle(
-            "open"
-          );
+        navLinks.classList.remove("open");
 
-
-        document.body.classList.toggle(
-          "menu-open",
-          open
+        document.body.classList.remove(
+          "menu-open"
         );
 
-
-        menuBtn.textContent =
-          open
-            ? "✕"
-            : "☰";
-
+        menuBtn.textContent = "☰";
 
         menuBtn.setAttribute(
           "aria-expanded",
-          String(open)
+          "false"
         );
 
       }
     );
 
+  });
 
 
-    document
-      .querySelectorAll(
-        ".nav-links a"
-      )
-      .forEach(link => {
+window.addEventListener(
+  "resize",
+  () => {
 
-        link.addEventListener(
-          "click",
-          () => {
+    if (window.innerWidth > 760) {
 
-            navLinks.classList.remove(
-              "open"
-            );
+      navLinks.classList.remove("open");
+
+      document.body.classList.remove(
+        "menu-open"
+      );
+
+      menuBtn.textContent = "☰";
+
+      menuBtn.setAttribute(
+        "aria-expanded",
+        "false"
+      );
+
+    }
+
+  }
+);
 
 
-            document.body.classList.remove(
-              "menu-open"
-            );
+/* =========================================================
+   REVEAL
+========================================================= */
+
+const revealItems =
+  document.querySelectorAll(".reveal");
 
 
-            menuBtn.textContent = "☰";
+const revealObserver =
+  new IntersectionObserver(
 
+    entries => {
 
-            menuBtn.setAttribute(
-              "aria-expanded",
-              "false"
-            );
+      entries.forEach(entry => {
 
-          }
-        );
+        if (entry.isIntersecting) {
+
+          entry.target.classList.add(
+            "visible"
+          );
+
+          revealObserver.unobserve(
+            entry.target
+          );
+
+        }
 
       });
 
+    },
+
+    {
+      threshold: .08,
+      rootMargin: "0px 0px -25px 0px"
+    }
+
+  );
 
 
-    /* =======================================================
-       RESIZE
-    ======================================================== */
+revealItems.forEach(item => {
 
-    window.addEventListener(
-      "resize",
-      () => {
+  revealObserver.observe(item);
 
-        if (
-          window.innerWidth > 760
-        ) {
+});
 
-          navLinks.classList.remove(
-            "open"
+
+/* =========================================================
+   ACTIVE NAV SECTION
+========================================================= */
+
+const navItems =
+  document.querySelectorAll(
+    '.nav-links a[href^="#"]:not(.nav-contact)'
+  );
+
+
+const sections =
+  [...navItems]
+    .map(link =>
+      document.querySelector(
+        link.getAttribute("href")
+      )
+    )
+    .filter(Boolean);
+
+
+const sectionObserver =
+  new IntersectionObserver(
+
+    entries => {
+
+      entries.forEach(entry => {
+
+        if (!entry.isIntersecting) return;
+
+        navItems.forEach(link => {
+
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") ===
+              "#" + entry.target.id
           );
 
+        });
 
-          document.body.classList.remove(
-            "menu-open"
-          );
+      });
 
+    },
 
-          menuBtn.textContent = "☰";
+    {
+      rootMargin:
+        "-35% 0px -55% 0px"
+    }
 
-
-          menuBtn.setAttribute(
-            "aria-expanded",
-            "false"
-          );
-
-        }
-
-      }
-    );
+  );
 
 
+sections.forEach(section => {
 
-    /* =======================================================
-       SCROLL REVEAL
-    ======================================================== */
+  sectionObserver.observe(section);
 
-    const revealItems =
-      document.querySelectorAll(
-        ".reveal"
-      );
+});
 
 
-    const observer =
-      new IntersectionObserver(
+/* =========================================================
+   YEAR
+========================================================= */
 
-        entries => {
+document
+  .getElementById("year")
+  .textContent =
+    new Date().getFullYear();
 
-          entries.forEach(
-            entry => {
-
-              if (
-                entry.isIntersecting
-              ) {
-
-                entry.target.classList.add(
-                  "visible"
-                );
-
-
-                observer.unobserve(
-                  entry.target
-                );
-
-              }
-
-            }
-          );
-
-        },
-
-        {
-          threshold: .08,
-          rootMargin:
-            "0px 0px -25px 0px"
-        }
-
-      );
-
-
-    revealItems.forEach(
-      item => {
-
-        observer.observe(item);
-
-      }
-    );
-
-
-
-    /* =======================================================
-       FOOTER YEAR
-    ======================================================== */
-
-    document
-      .getElementById("year")
-      .textContent =
-        new Date().getFullYear();
-
-
-  </script>
+</script>
 
 
 </body>
